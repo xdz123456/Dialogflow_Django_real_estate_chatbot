@@ -3,5 +3,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Rango says hey there partner!")
+    context_dict = {'boldmessage': 'Welcome to ChatBot'}
+    return render(request, 'chatbot/index.html', context=context_dict)
+
+
+def about(request):
+    return HttpResponse("<a href='/chatbot/'>Back</a>")
 # Create your views here.

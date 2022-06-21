@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <title>chatbot</title>
+    </head>
+    <body>
+    <h1>Chatbot says...</h1>
+    <div>
+        hey there partner! <br />
+        <strong>{{ boldmessage }}</strong><br />
+    </div>
+    <div>
+        <a href="/chatbot/about/">About</a><br />
+        <img src="{% static 'images/chatbot.png' %}"
+            alt="Picture of chatbot" />
+    </div> </body>
+</html>
