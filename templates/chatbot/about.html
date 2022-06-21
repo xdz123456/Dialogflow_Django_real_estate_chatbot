@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <title>chatbot about page</title>
+    </head>
+    <body>
+    <h1>About me</h1>
+    <div>
+        Dongzhan xie <br />
+        <strong>{{ boldmessage }}</strong><br />
+    </div>
+    <div>
+        <a href="/chatbot/index/">Back</a><br />
+        <img src="{% static 'images/chatbot.png' %}"
+            alt="Picture of chatbot" />
+        <img src="{{ MEDIA_URL }}dongzhan.png"
+            alt="Picture of dongzhan" />
+    </div> </body>
+
+</html>

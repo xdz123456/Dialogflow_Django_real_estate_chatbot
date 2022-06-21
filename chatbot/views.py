@@ -8,5 +8,6 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("<a href='/chatbot/'>Back</a>")
+    context_dict = {'boldmessage': '2663048X'}
+    return render(request, 'chatbot/about.html', context=context_dict)
 # Create your views here.
