@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <title>Chat form</title>
+    </head>
+    <body>
+    <h1>Start chat</h1> <div>
+    <form id="chat_form" method="post" action="/chatbot/chatform/">
+        {% csrf_token %}
+        {% for field in form.visible_fields %}
+            {{ field.errors }}
+            {{ field.help_text }}
+            {{ field }}
+        {% endfor %}
+        <input type="submit" name="submit" value="Creat" />
+    </form>
+    </div>
+    <div>
+        <strong>{{ output_text }}</strong>
+    </div>
+    <div align="center">
+        <img src="{% static 'images/chatbot.png' %}"
+            alt="Picture of chatbot" />
+    </div>
+    </body>
+</html>

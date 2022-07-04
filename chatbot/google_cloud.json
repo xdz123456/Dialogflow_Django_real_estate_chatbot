@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "realestatechatbot-353821",
+  "private_key_id": "52d33e2f5b9fc0b7e4a2920ed4080dbf35924158",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDM4NbWgURbGL2+\nq2n63sCp3QGRXL21WgIxZvlv896CturienizpODk3AWO2jvNYG/c6Wx81Vsi3EBD\nmxrfw4SfxSGWS4tfUX4sIziskzaX8Msd7XTB/b1MbSoSVX0X14NHv+LxjceVDD1v\nD49UiWGyjZvlVHglKTBY8CMeoCIb8PJvUbpsBXYMUI2fTZpr+pnbqaRpXNIk/JTS\nr0ZJ9nodfyyL+IcGnO/Eb0xGueDO/iY1iWZ0EenftHaZfyqS/Wp0wNx/eLjmJKDQ\nL8yKCrnn8jw0GiRJBQ15Y2I4jNd6nAhrRM+m7oalSpp6otd+Y2wAT9ha8RQV5nzB\nyA6PsaT1AgMBAAECggEAPNLpZTBmW0cqmc8o/QYhm6xVuVKXrZ3ltcX0+sQjRJpK\nfGdQq0ChVcBuU/09MNlXDHYuM5dh4aUS3R9QqKrSll4/fO+7llZKx47DVhS0agJe\nQunKtob+qpBkI6JGq4vbWTNCDGWDoZ/LI0wyyK2qmAhLhpd/vcSPKnBMdNykk7d6\nIWdZJHaAQHOHI0aDzd3eN5eIg+9OCgVD4ILV5PGPG+XrdAaopxS5oCqbU3CfvQdR\ndDz5qwtq/VYbaWupmQdm1dtXnYJGp3wjMsJo4SLCI586DEWwSvjtFl7ew2dOZKkh\nGTk/jd0mMPvVq2Be1zsdIdM9k+3Q97X9BYP4VCDuRwKBgQDulQUPe3pmumbdzsWv\ngYgSAuc1I+GNHe5VaIzH//MXmz0FJKreJRpKz95N96agAHQMDksqyotX/X9z7krG\n1rcbARCZz5a30rLS9Pbmu+rwR6GPg/sF13h+u9DPHXj3wOfTs1m5LR34ZES6HxRd\nBInaNcStK7TXua8nlytRUu7oswKBgQDb1elmYnj8MIPpcn+Z3DjH8bxfyr5d7+aj\nY35z5cXivIGsifqHJEsJrYhBwq9K+BBgELLUeUumXdjsi0HSvkSdZNTQA6o9hmDo\nTDzX1nvmaPMsuxJ14vUt2deVkbfpb6V1oGhj36ol5lB9qqcWNsywpy2DtNGbudAg\n2hntx+X/twKBgQCZL2dbZH3XvbFUk3HMWU/juKd5MDue3uvrPMC/nXAY5RzN05g+\nH/Z8uHDVAMCklQXtw7OxmvDTIzmVVxf+CVjx5sIg7++mwYr99jkdNuUHOAbc3fHr\n80gznyXYBeVothxjihF+2yAWH1Mdad0qSEK2r7VDNv/bTybONbqjcatiDwKBgQCP\nrmYYJvBQVB1DbTR9CXSLKjImocp+dxfVXmf9tAX8RZyzepMl1NC+iI7v/CC57Rw2\nzXM0b/rDx77KC9J/vR/3hzmYo2yXPccEzR9PKr5cP+gAKlzMdAQvbZv8A/uiNPh9\nwtO3wy3gC4I8QFdoq3RpWTrkREBjebTQY/xiby6iTQKBgQCT0BgMl98ZCaKfMnjH\nDbVjXDHVYOVQBiNnzLd4dxsPkm8QSF/2YMoUqy1fJGxJ/BYWM7/xbjzN+bkEX0gB\nSPcWyYmtphH1yASdEIZFq0kfukyhbDHp7JtxgcVnQZrnuH/Li6PfwFJK1/tSt03m\n7xjn/PN8WCgWCafnEECsxo3axA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dongzhan@realestatechatbot-353821.iam.gserviceaccount.com",
+  "client_id": "113110082207411520029",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dongzhan%40realestatechatbot-353821.iam.gserviceaccount.com"
+}
