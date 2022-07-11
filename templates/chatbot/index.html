@@ -6,18 +6,27 @@
         <title>chatbot</title>
     </head>
     <body>
-    <h1>Chatbot says...</h1>
-    <div>
-        hey there partner! <br />
-        <strong>{{ boldmessage }}</strong><br />
-    </div>
-    <div>
-        <a href="/chatbot/chatform/">Chat Now</a><br />
-    </div>
-    <div>
-        <a href="/chatbot/about/">About</a><br />
-        <img src="{% static 'images/chatbot.png' %}"
-            alt="Picture of chatbot" />
-    </div> </body>
+        <h1>Chatbot says...</h1>
+        <div>
+            hey there partner! <br />
+            <strong>{{ boldmessage }}</strong><br />
+        </div>
+        <div>
+            <a href="/chatbot/chatform/">Chat Now</a><br/>
+        </div>
+        <div>
+            <a href="/chatbot/about/">About</a><br/>
+            <form id="login_form" method="post" action="{% url 'rango:login' %}">
+                {% csrf_token %}
+                Username: <input type="text" name="username" value="" size="50" />
+                <br />
+                Password: <input type="password" name="password" value="" size="50" /> <br />
+                <input type="submit" value="submit" />
+            </form>
+            <li><a href="{% url 'chatbot:register' %}">Sign Up</a></li>
+            <img src="{% static 'images/chatbot.png' %}"
+                alt="Picture of chatbot" />
+        </div>
+    </body>
 
 </html>

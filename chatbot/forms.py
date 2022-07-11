@@ -1,4 +1,6 @@
 from django import forms
+from django.contrib.auth.models import User
+
 from chatbot.models import InputText
 
 
@@ -11,6 +13,14 @@ class InputTextForm(forms.ModelForm):
 
     def __str__(self):
         return self.input_text
+
+
+class UserForm(forms.ModelForm):
+    password = forms.CharField(widget=forms.PasswordInput())
+
+    class Meta:
+        model = User
+        fields = ('username', 'password', 'email')
 
 
 

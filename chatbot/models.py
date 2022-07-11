@@ -1,28 +1,24 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
-# Create your models here.
-class House(models.Model):
-    house_address = models.CharField(max_length=128, null=False)
-    house_area = models.FloatField()
-    house_date = models.DateTimeField()
+# Create your Property here.
+class Property(models.Model):
+    property_address = models.CharField(max_length=128, null=False)
+    property_city = models.CharField(max_length=128, null=False)
+    property_postcode = models.CharField(max_length=128)
+    property_type = models.CharField(max_length=128)
+    property_num_bedroom = models.IntegerField()
+    property_price = models.FloatField()
+    property_date = models.DateTimeField()
 
     def __str__(self):
-        return self.house_address
+        return self.property_address
 
-
-class User(models.Model):
-    user_name = models.CharField(max_length=128, null=False)
-    user_email = models.EmailField()
-    user_telephone = models.CharField(max_length=128)
-    user_house = models.ForeignKey(House, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return self.user_name
 
 
 class InputText(models.Model):
-    input_text = models.CharField(max_length=256, null=False)
+    input_text = models.CharField(max_length=512, null=False)
 
     def __str__(self):
         return self.input_text
