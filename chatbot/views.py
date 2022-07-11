@@ -2,16 +2,29 @@ from django.shortcuts import render
 from chatbot.forms import InputTextForm
 from chatbot.forms import UserForm
 from chatbot.realestatechatbot import chat_with_me
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.urls import reverse
 from django.shortcuts import redirect
-import time
-
+from django.contrib.auth.decorators import login_required
+from chatbot.models import Property
 
 def index(request):
-    context_dict = {'boldmessage': 'Welcome to ChatBot'}
-    return render(request, 'chatbot/index.html', context=context_dict)
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(username=username, password=password)
+
+        if user:
+            if user.is_active:
+                login(request, user)
+                return redirect(reverse('chatbot:chatform'))
+            else:
+                return HttpResponse("Your account is disabled.")
+        else:
+            return HttpResponse("Invalid login details supplied.")
+    else:
+        return render(request, 'chatbot/index.html')
 
 
 def about(request):
@@ -37,24 +50,11 @@ def register(request):
 
     return render(request, 'chatbot/register.html', context={'user_form': user_form, 'registered': registered})
 
-def user_login(request):
-    if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        user = authenticate(username=username, password=password)
+def user_logout(request):
+    logout(request)
+    return redirect(reverse('chatbot:index:index'))
 
-        if user:
-            if user.is_active:
-                login(request, user)
-                return redirect(reverse('chatbot:chatform'))
-            else:
-                return HttpResponse("Your Rango account is disabled.")
-        else:
-            return HttpResponse("Invalid login details supplied.")
-    else:
-        return render(request, 'chatbot/login.html')
-
-
+@login_required
 def chat(request):
     output_text = " "
 

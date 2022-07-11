@@ -11,10 +11,11 @@ class Property(models.Model):
     property_num_bedroom = models.IntegerField()
     property_price = models.FloatField()
     property_date = models.DateTimeField()
+    property_belong = models.OneToOneField(User, unique=True, on_delete=models.CASCADE, related_name='user_belong', null=True)
+    property_interested = models.ManyToManyField(User, related_name='user_interested')
 
     def __str__(self):
         return self.property_address
-
 
 
 class InputText(models.Model):
@@ -22,6 +23,3 @@ class InputText(models.Model):
 
     def __str__(self):
         return self.input_text
-
-
-
