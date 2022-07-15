@@ -1,20 +1,28 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/chatbotcss.css' %}">
 </head>
 <body>
     {% if registered %}
-        <strong>thank you for registering!</strong>
+        <h1>Thank you for registering!</h1>
         <a href="{% url 'chatbot:index' %}">Return to the homepage.</a><br />
     {% else %}
-        <strong>register here!</strong><br />
-        <form id="user_form" method="post" action="{% url 'chatbot:register' %}">
+        <div class="my_chat">
+            <h1>Register Here</h1>
+        <form class="my_form" id="user_form" method="post" action="{% url 'chatbot:register' %}">
             {% csrf_token %}
             {{ user_form.as_p }}
-            <input type="submit" name="submit" value="Register" />
+            <button class="orange" type="submit"/>Register</button>
         </form>
+        </div>
+
     {% endif %}
+    <div class="my_bottom">
+            <img src="{% static 'images/index_bottom.png' %}" alt="Picture of chatbot" width="100%"/>
+    </div>
 </body>
 </html>

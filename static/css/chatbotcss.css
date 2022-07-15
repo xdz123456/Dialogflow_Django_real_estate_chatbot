@@ -1,0 +1,93 @@
+ body{
+                background-color: #F5FFFB;
+                font-family: sans-serif;
+ }
+
+
+h1{
+    color: black;
+}
+
+.my_form{
+    background-color: white;
+    padding: 3% 6% 3% 3%;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid #5AA28B;
+    line-height: 2em;
+    font-family: "Arial", serif;
+    margin-top: 30px;
+}
+
+div.my_bottom{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+div.my_left{
+    padding-top: 9%;
+    width: 35%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 3%;
+}
+
+div.my_right{
+    width: 55%;
+    float: right;
+
+}
+
+div.my_chat{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+div.my_logout{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-family: sans-serif;
+}
+
+
+input{
+    padding-left: 3%;
+    width: 100%;
+    outline-style: none ;
+    border: 1px solid #5AA28B;
+    border-radius: 3px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+button.orange {
+    width: 103%;
+    height: 40px;
+    color: white;
+    border: 1px solid #5AA28B;
+    font-family: "Arial Black", serif;
+    font-size: medium;
+    background: -webkit-linear-gradient(top, #5AA28B, #5AA2A9);
+    background: -moz-linear-gradient(top, #5AA28B, #5AA2A9);
+    background: -ms-linear-gradient(top, #5AA28B, #5AA2A9);
+    border-radius: 3px;
+}
+
+button.orange:hover {
+    background: -webkit-linear-gradient(top, #44C29B, #3BB791);
+
+    background: -moz-linear-gradient(top, #44C29B, #3BB791);
+    background: -ms-linear-gradient(top, #44C29B, #3BB791);
+    border: 1px solid #44C29B;
+    box-shadow: 0 1px #EFEFEF;
+}
+
+button.orange:active {
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+}

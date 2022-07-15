@@ -3,29 +3,33 @@
 
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Chat form</title>
+        <link type="text/css" rel="stylesheet" href="{% static 'css/chatbotcss.css' %}">
     </head>
     <body>
-    <h1>Start chat</h1>
-    <div>
-        <form id="chat_form" method="post" action="/chatbot/chatform/">
+    <h1 style="margin-top: 10%; margin-left: 10%; margin-bottom: 5%">Start chat</h1>
+    <div class="my_chat">
+        <form class="my_form" id="chat_form" method="post" action="/chatbot/chatform/">
             {% csrf_token %}
             {% for field in form.visible_fields %}
                 {{ field.errors }}
                 {{ field.help_text }}
                 {{ field }}
             {% endfor %}
-            <input type="submit" name="submit" value="Creat" />
+            <br /><br />
+            <button class="orange" type="submit"/>SEND</button>
         </form>
     </div>
-    <div>
+    <p style="text-align: center; font-family: Damascus, sans-serif">
         <strong>{{ output_text }}</strong>
-    </div>
-    <li><a href="{% url 'chatbot:logout' %}">Logout</a></li>
-    <div align="center">
-        <img src="{% static 'images/chatbot.png' %}"
-            alt="Picture of chatbot" />
+    </p>
+    <div class="my_bottom">
+            <img src="{% static 'images/index_bottom.png' %}" alt="Picture of chatbot" width="100%"/>
     </div>
 
+    <div class="my_logout">
+        <a href="{% url 'chatbot:logout' %}" style="color:#757575">Logout</a>
+    </div>
     </body>
 </html>

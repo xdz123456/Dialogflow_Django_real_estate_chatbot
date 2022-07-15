@@ -82,6 +82,7 @@ def chat_with_me(input_text):
     # If have expected intend, Return the Parameter
     my_parameter = None
     intent_name = None
+    output_text = " "
     try:
         intent_name = response_json["queryResult"]["intent"]["displayName"]
         if intent_name == "City":
@@ -103,6 +104,9 @@ def chat_with_me(input_text):
 
     print("Parameter", my_parameter)
     # print(response_detect.query_result)
-    output_text = response_detect.query_result.response_messages[0].text.text[0]
 
-    return output_text
+    length_of_response = len(response_detect.query_result.response_messages[0].text.text)
+    if length_of_response > 0:
+        output_text = response_detect.query_result.response_messages[0].text.text[0]
+
+    return intent_name, my_parameter, output_text

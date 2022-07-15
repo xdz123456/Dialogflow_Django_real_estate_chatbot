@@ -3,31 +3,43 @@
 
 <html>
     <head>
-        <title>chatbot</title>
+        <meta charset="UTF-8">
+        <title>My Real Estate ChatBot</title>
+        <link type="text/css" rel="stylesheet" href="{% static 'css/chatbotcss.css' %}">
     </head>
     <body>
-        <h1>Chatbot says...</h1>
         <div>
-            hey there partner! <br />
-            <strong>{{ boldmessage }}</strong><br />
-        </div>
-        <div>
-            <a href="{% url 'chatbot:chatform' %}">Chat Now</a><br/>
-        </div>
-        <div>
-            <a href="/chatbot/about/">About</a><br/>
-            <form id="login_form" method="post" action="{% url 'chatbot:index' %}">
+            <div class="my_left">
+                <h1>Welcome Back</h1>
+                <form id="login_form" class="my_form" method="post" action="{% url 'chatbot:index' %}">
                 {% csrf_token %}
-                Username: <input type="text" name="username" value="" size="50" />
+                <input type="text" name="username" placeholder="Username" value="" size="50" />
                 <br />
-                Password: <input type="password" name="password" value="" size="50" /> <br />
-                <input type="submit" value="submit" />
-            </form>
+                <input type="password" name="password" placeholder="Password" value="" size="50" /> <br />
+                <br />
+                <button class="orange" type="submit"/>Login</button>
+                </form>
+                <p>
+                    <a href="{% url 'chatbot:register' %}" style="color:#757575" >Don't have an account?</a><br/>
+                    <a href="{% url 'chatbot:about' %}" style="color:#757575" title="About me">About</a>
+                </p>
+            </div>
+            <div class="my_right">
+                <img src="{% static 'images/index_page.png' %}" alt="Picture of chatbot" width="100%"/>
+            </div>
 
-            <li><a href="{% url 'chatbot:register' %}">Sign Up</a></li>
-            <img src="{% static 'images/chatbot.png' %}"
-                alt="Picture of chatbot" />
         </div>
+        <div class="my_bottom">
+            <img src="{% static 'images/index_bottom.png' %}" alt="Picture of chatbot" width="100%"/>
+        </div>
+
+
+
+
+
+
+
+
     </body>
 
 </html>
