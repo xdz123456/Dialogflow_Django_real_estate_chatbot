@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
         <title>Chat form</title>
@@ -23,7 +23,23 @@
     </div>
     <p style="text-align: center; font-family: Damascus, sans-serif">
         <strong>{{ output_text }}</strong>
+
     </p>
+
+        {% if my_response_words is not None %}
+
+            {% for property in my_response_words %}
+                <div class="my_query">
+                {% for line in property%}
+                    <p><strong>{{ line }}</strong></p>
+                {% endfor %}
+                </div>
+            {% endfor %}
+
+    {% endif %}
+
+
+
     <div class="my_bottom">
             <img src="{% static 'images/index_bottom.png' %}" alt="Picture of chatbot" width="100%"/>
     </div>

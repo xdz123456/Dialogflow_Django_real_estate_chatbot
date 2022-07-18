@@ -21,9 +21,7 @@ h1{
 
 div.my_bottom{
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    float: bottom;
 }
 
 div.my_left{
@@ -51,6 +49,19 @@ div.my_logout{
     right: 15px;
     top: 15px;
     font-family: sans-serif;
+}
+
+div.my_query{
+    background-color: white;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid #5AA28B;
+    line-height: 2em;
+    font-family: "Arial", serif;
+    margin: 30px 25% 5%;
 }
 
 
