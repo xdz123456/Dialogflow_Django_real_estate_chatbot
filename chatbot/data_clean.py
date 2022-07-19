@@ -52,6 +52,87 @@ def data_clean():
     real_estate_london_df.to_csv('rightmove_london_cleaned.csv')
 
 
-data_clean()
+def deal_empty():
+    real_estate_london_df = pd.read_csv("rightmove_london_cleaned.csv")
+    real_estate_london_df = real_estate_london_df[~real_estate_london_df["lat"].isin(["empty"])]
+    real_estate_london_df = real_estate_london_df.drop([real_estate_london_df.columns[0]], axis=1)
+    real_estate_london_df.to_csv('rightmove_london_cleaned.csv')
 
+
+def deal_type():
+    real_estate_london_df = pd.read_csv("rightmove_london_cleaned.csv")
+
+    real_estate_london_df.reset_index(inplace=True)
+    for i in range(0, len(real_estate_london_df)):
+        current_string = real_estate_london_df.iloc[i]["type"]
+        if "Studio flat" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Studio flat"
+            continue
+        elif "Studio apartment" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Studio apartment"
+            continue
+        elif "flat" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Flat"
+            continue
+        elif "apartment" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Apartment"
+            continue
+        elif "terraced house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Terraced house"
+            continue
+        elif "maisonette" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Maisonette"
+            continue
+        elif "semi-detached house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Semi-detached house"
+            continue
+        elif "detached house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Detached house"
+            continue
+        elif "mews house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Mews house"
+            continue
+        elif "end of terrace house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "End of terrace house"
+            continue
+        elif "penthouse" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Penthouse"
+            continue
+        elif "duplex" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Duplex"
+            continue
+        elif "triplex" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Triplex"
+            continue
+        elif "bungalow" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Bungalow"
+            continue
+        elif "town house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Town house"
+            continue
+        elif "cottage" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Cottage"
+            continue
+        elif "house" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "House"
+            continue
+        elif "property" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Property"
+            continue
+        elif "villa" in current_string:
+            real_estate_london_df.loc[i, ['type']] = "Villa"
+            continue
+        else:
+            real_estate_london_df.loc[i, ['type']] = "Other"
+    # value_count = real_estate_london_df["type"].value_counts()
+    real_estate_london_df = real_estate_london_df.drop(columns=["index"])
+    real_estate_london_df = real_estate_london_df.drop([real_estate_london_df.columns[0]], axis=1)
+
+    real_estate_london_df.to_csv('rightmove_london_cleaned_final.csv')
+
+
+# data_clean()
 # parse_address("Lawrie Park Road, London, SE26")
+# deal_empty()
+# deal_type()
+

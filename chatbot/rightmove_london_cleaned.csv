@@ -668,7 +668,6 @@
 666,150000.0,1 bedroom flat for sale,"Stannard Court, Catford, SE6 2LE",SE6,1.0,51.4437131,-0.0192451,"Stannard Court, Culverley Rd, London SE6 2LE, UK"
 667,150000.0,1 bedroom flat for sale,"Burford Wharf Apartments, 3 Cam Road, Stratford, London, E15",E15,1.0,51.5369087,-0.0012583,"Burford Wharf Apts, 3 Cam Rd, London E15 2SQ, UK"
 668,150000.0,1 bedroom house boat for sale,"Goodhart Place, London, E14",E14,1.0,51.5101908,-0.0374569,"Goodhart Pl, London E14, UK"
-669,price,type,address,postcode,number_bedrooms,empty,empty,empty
 670,300000,1 bedroom apartment for sale,"Brine House, St Stephens Road, Bow E3",E3,1.0,51.5329306,-0.03378030000000001,"Brine House, St Stephen's Rd, Bow, London E3 5PG, UK"
 671,300000,1 bedroom apartment for sale,"Rosse Gardens, Desvignes Drive, London, SE13",SE13,1.0,51.4484733,-0.0026056,"Rosse Gardens, Desvignes Dr, London SE13 6PD, UK"
 672,300000,1 bedroom flat for sale,"Croxted Road, West Dulwich, London, SE21",SE21,1.0,51.4377073,-0.091079,"Croxted Rd, London, UK"
@@ -936,7 +935,6 @@
 934,300000,1 bedroom flat for sale,"Moorfield Road, Tottenham, London, UK, N17 6PY",N17,1.0,51.5935227,-0.0707925,"Moorefield Rd, London N17 6PY, UK"
 935,300000,1 bedroom flat for sale,"33 Canterbury Grove, London, SE27",SE27,1.0,51.43344279999999,-0.1062134,"33 Canterbury Grove, Norwood, London SE27 0NX, UK"
 936,300000,2 bedroom flat for sale,"Memorial Avenue, E15",E15,2.0,51.5277872,0.0068339,"Memorial Ave, London E15, UK"
-937,300000,1 bedroom apartment for sale,Space Apartments N22,N22,1.0,empty,empty,empty
 938,300000,1 bedroom flat for sale,"Kelly Avenue, Peckham, SE15",SE15,1.0,51.4755996,-0.075322,"Kelly Avenue, London SE15, UK"
 939,300000,1 bedroom flat for sale,"Rosebay Drive, Tottenham, Haringey, London, N17",N17,1.0,51.59651419999999,-0.0682879,"Rosebay Drive / Skylark Apartments, London N17 9GB, UK"
 940,300000,1 bedroom flat for sale,"Alfred Road, Westbourne Park, London, W2",W2,1.0,51.5212152,-0.193835,"Alfred Rd, London W2, UK"
@@ -1323,7 +1321,6 @@
 1321,279950,1 bedroom apartment for sale,"Barford Close, Hendon NW4",NW4,1.0,51.6002874,-0.2329078,"Barford Cl, London NW4, UK"
 1322,279000,1 bedroom flat for sale,"Mount Pleasant Road, Hither Green, London, SE13",SE13,1.0,51.4512015,-0.0124675,"Mount Pleasant Rd, London SE13, UK"
 1323,279000,1 bedroom flat for sale,"Arnal Crescent, London, SW18",SW18,1.0,51.4500371,-0.2120956,"Arnal Cres, London SW18, UK"
-1324,278000,Studio flat for sale,"Hudson Building, SE10",SE10,0.0,empty,empty,empty
 1325,278000,1 bedroom ground floor flat for sale,"Cooper Avenue, Walthamstow, E17",E17,1.0,51.6007058,-0.0371198,"Cooper Ave, London E17, UK"
 1326,278000,1 bedroom flat for sale,"Wood Lane,White City,London,W12 7RQ",W12,1.0,51.5123373,-0.2249677,"Wood Ln, London W12, UK"
 1327,278000,1 bedroom apartment for sale,"Tawny Way, London, SE16",SE16,1.0,51.492711,-0.0456225,"Tawny Way, London SE16, UK"
@@ -1359,7 +1356,6 @@
 1357,275000,Studio flat for sale,"Brett House Close, Putney, London, SW15",SW15,0.0,51.45139,-0.2175065,"Brett House, Putney Heath Ln, London SW15 3JE, UK"
 1358,275000,1 bedroom flat for sale,"Amber Court, Colindale Avenue, NW9",NW9,1.0,51.59349479999999,-0.2539202,"Amber Court, Colindale Ave, London NW9 5ET, UK"
 1359,275000,Studio apartment for sale,"Westgate House, West Gate, Ealing, London, W5",W5,0.0,51.53132249999999,-0.2957402,"Westgate House, W Gate, London W5, UK"
-1360,price,type,address,postcode,number_bedrooms,empty,empty,empty
 1361,325000,2 bedroom flat for sale,"Walters Road, South Norwood, London, SE25",SE25,2.0,51.3958213,-0.0837192,"Walter's Rd, London SE25, UK"
 1362,325000,Studio flat for sale,"Marshalsea Road, London, SE1",SE1,0.0,51.5018327,-0.0949447,"Marshalsea Rd, London SE1, UK"
 1363,325000,2 bedroom flat for sale,"Azure Court, 666 Kingsbury Road, London, NW9",NW9,2.0,51.5853261,-0.2811762,"Azure Court, Kingsbury Rd, Kingsbury Circle, London NW9 9AW, UK"
@@ -1405,7 +1401,6 @@
 1403,325000,2 bedroom maisonette for sale,"Ling Road, London, E16",E16,2.0,51.5186744,0.021176,"Ling Rd, London E16, UK"
 1404,325000,1 bedroom flat for sale,"Voltaire Road, Clapham High Street, London, SW4",SW4,1.0,51.4645417,-0.1309688,"Clapham High St & Voltaire Rd, London SW4 7TR, UK"
 1405,325000,1 bedroom flat for sale,"Acre Lane, London, SW2",SW2,1.0,51.4598216,-0.1214168,"Acre Ln, London SW2, UK"
-1406,325000,1 bedroom flat for sale,W13,W13,1.0,empty,empty,empty
 1407,325000,2 bedroom maisonette for sale,"Granby Road, Eltham SE9",SE9,2.0,51.463787,0.0551883,"Granby Rd, London SE9, UK"
 1408,325000,1 bedroom apartment for sale,"Holloway Road, London, N19",N19,1.0,51.5603678,-0.1232599,"Holloway Rd, London N19, UK"
 1409,325000,2 bedroom flat for sale,"Stubbs Drive, South Bermondsey, London, SE16",SE16,2.0,51.4882381,-0.0598382,"Stubbs Dr, London SE16, UK"
@@ -1668,7 +1663,6 @@
 1666,325000,1 bedroom apartment for sale,"Sunnyhill Road, London, SW16",SW16,1.0,51.4297393,-0.1247444,"Sunnyhill Rd, London SW16, UK"
 1667,325000,2 bedroom flat for sale,"Woodhouse Road, North Finchley N12",N12,2.0,51.6113411,-0.1672526,"Woodhouse Rd, London N12, UK"
 1668,325000,2 bedroom duplex for sale,"Clarence Lane, London, SW15",SW15,2.0,51.454624,-0.249503,"Clarence Ln, London SW15, UK"
-1669,325000,2 bedroom flat for sale,"Century House, SE8",SE8,2.0,empty,empty,empty
 1670,325000,1 bedroom apartment for sale,"Baythorne Street, Bow, E3",E3,1.0,51.5183803,-0.0285852,"Baythorne St, London E3, UK"
 1671,325000,1 bedroom apartment for sale,"Sherwood Gardens, Canary Wharf, E14",E14,1.0,51.4916269,-0.0212565,"Sherwood Gardens, London E14, UK"
 1672,325000,1 bedroom flat for sale,"Lea Court, 143 Broad Lane, London, N15",N15,1.0,51.5859086,-0.0640092,"143 Bramble Cl, Broad Ln, London N15 4NF, UK"
@@ -2054,7 +2048,6 @@
 2052,300000,1 bedroom flat for sale,"Flowers Close, London, NW2 7FG",NW2,1.0,51.5620707,-0.2397126,"Flowers Cl, London NW2 7FG, UK"
 2053,300000,Studio flat for sale,"East Dulwich Estate, London, SE22",SE22,0.0,51.464309,-0.08150439999999999,"03 Ledbury House Pytchley Road Estate, Dulwich Estate, London SE22 8AN, UK"
 2054,300000,1 bedroom flat for sale,"112 Naylor Road, Peckham Rye, SE15",SE15,1.0,51.4767958,-0.0611895,"Havelock Court, 112 Naylor Rd, London SE15 1QW, UK"
-2055,price,type,address,postcode,number_bedrooms,empty,empty,empty
 2056,350000,2 bedroom end of terrace house for sale,"Henry Cooper Way, London, SE9",SE9,2.0,51.4291765,0.0354954,"Henry Cooper Way, London SE9, UK"
 2057,350000,1 bedroom flat for sale,"Courtenay Road, Walthamstow, London, E17",E17,1.0,51.5838004,-0.0386953,"Courtenay Rd, London E17, UK"
 2058,350000,1 bedroom apartment for sale,"Sienna Alto, Lewisham, SE13",SE13,1.0,51.4638867,-0.01423,"78 Cornmill Ln, London SE13 7DJ, UK"
@@ -2122,7 +2115,6 @@
 2120,350000,1 bedroom apartment for sale,"Oxley Square, Bromley-By-Bow, E3",E3,1.0,51.5241647,-0.0129058,"Truman Walk, London E3 3GR, UK"
 2121,350000,2 bedroom terraced house for sale,"BROCK ROAD, Plaistow, London, E13",E13,2.0,51.5187929,0.028403,"Brock Rd, London E13, UK"
 2122,350000,1 bedroom flat for sale,"Coll's Road, Peckham SE15",SE15,1.0,51.4750332,-0.0547713,"Coll's Rd, London SE15, UK"
-2123,350000,1 bedroom flat for sale,W13,W13,1.0,empty,empty,empty
 2124,350000,1 bedroom flat for sale,"Brixton Hill, London, SW2",SW2,1.0,51.4533088,-0.1205905,"Brixton Hill, London SW2, UK"
 2125,350000,1 bedroom flat for sale,"Barry Blandford Way, LONDON E3 3TS",E3,1.0,51.5206394,-0.0171784,"Barry Blandford Way, London E3, UK"
 2126,350000,1 bedroom flat for sale,"Caledonian Wharf, Isle of Dogs E14",E14,1.0,51.4899293,-0.0042285,"Caledonian Wharf, London E14, UK"
@@ -2503,7 +2495,6 @@
 2501,350000,2 bedroom apartment for sale,"Duffell House, Loughborough Street, London, SE11",SE11,2.0,51.48777320000001,-0.1147704,"Brangton Rd, London SE11 5PX, UK"
 2502,350000,1 bedroom flat for sale,"Lanterns Way, Tower Hamlets, London, E14",E14,1.0,51.4979558,-0.0198855,"Lanterns Way, London E14, UK"
 2503,350000,2 bedroom flat for sale,"Keppel Road, London, E6",E6,2.0,51.5360171,0.0548272,"Keppel Rd, London E6, UK"
-2504,350000,1 bedroom flat for sale,W3,W3,1.0,empty,empty,empty
 2505,350000,1 bedroom flat for sale,"Brett Road, Hackney, London, E8",E8,1.0,51.5481697,-0.0560452,"Brett Rd, London E8, UK"
 2506,350000,2 bedroom apartment for sale,"Hornsey Lane, London, N6",N6,2.0,51.5720919,-0.1349077,"Hornsey Ln, London N6, UK"
 2507,350000,3 bedroom apartment for sale,"Gardner Close, London, E11",E11,3.0,51.5768632,0.0304304,"Gardner Cl, London E11, UK"
@@ -2598,7 +2589,6 @@
 2596,350000,1 bedroom apartment for sale,"Wakeman Road, Kensal Rise, London, NW10",NW10,1.0,51.5304332,-0.220784,"Wakeman Rd, London NW10, UK"
 2597,350000,2 bedroom flat for sale,"Chobham Road, London, E15",E15,2.0,51.5495875,0.001558,"Chobham Rd, London E15, UK"
 2598,350000,1 bedroom flat for sale,"Lower Richmond Road, SW15",SW15,1.0,51.4682834,-0.2236177,"Lower Richmond Rd., London SW15, UK"
-2599,350000,1 bedroom apartment for sale,"Apple Yard, Anerley / Crystal Palace, SE20",SE20,1.0,empty,empty,empty
 2600,350000,1 bedroom flat for sale,"Sidney Street, London E1",E1,1.0,51.5170543,-0.0551654,"Sidney St., London E1, UK"
 2601,350000,2 bedroom house for sale,"Brock Road, Plaistow, E13",E13,2.0,51.5187929,0.028403,"Brock Rd, London E13, UK"
 2602,350000,1 bedroom flat for sale,"London Road, London, SW16",SW16,1.0,51.4057767,-0.1203935,"London Rd, London SW16, UK"
@@ -2761,7 +2751,6 @@
 2759,339950,2 bedroom flat for sale,"Koban Court, Watford Way, Hendon NW4",NW4,2.0,51.5924041,-0.2339091,"Koban Court, 236 Watford Way, London NW4 4UB, UK"
 2760,339950,2 bedroom flat for sale,"Cygnet Close, Neasden, London NW10",NW10,2.0,51.5512601,-0.2579429,"Cygnet Cl, London NW10 8TP, UK"
 2761,339950,Studio apartment for sale,"Forest Lodge, 95 West Hill, Putney, SW15",SW15,0.0,51.4531023,-0.2122616,"Forest Lodge, 95 West Hill, London SW15 3SP, UK"
-2762,price,type,address,postcode,number_bedrooms,empty,empty,empty
 2763,375000.0,2 bedroom flat for sale,"Pembury Road, Hackney Downs, London, E5",E5,2.0,51.5512792,-0.0586338,"Pembury Rd, London, UK"
 2764,375000.0,2 bedroom flat for sale,"Moreton Road, London, N15",N15,2.0,51.5781873,-0.0834282,"Moreton Rd, London N15, UK"
 2765,375000.0,1 bedroom apartment for sale,"7 Kilburn Priory, Kilburn, NW6",NW6,1.0,51.536154,-0.1902405,"7 Kilburn Priory, North Maida Vale, London NW6 5NJ, UK"
@@ -2950,7 +2939,6 @@
 2948,375000.0,3 bedroom apartment for sale,"St James's Crescent, London, SW9",SW9,3.0,51.4664168,-0.1083301,"St James's Cres, London SW9, UK"
 2949,375000.0,2 bedroom flat for sale,"Pellatt Grove, London, N22",N22,2.0,51.5997489,-0.1082722,"Pellatt Grove, London N22, UK"
 2950,375000.0,1 bedroom flat for sale,"Upper Richmond Road, Putney, SW15",SW15,1.0,51.4609955,-0.2175107,"Upper Richmond Rd, London SW15, UK"
-2951,375000.0,2 bedroom apartment for sale,"Locksons Close, E14",E14,2.0,empty,empty,empty
 2952,375000.0,2 bedroom apartment for sale,"Halesworth Road, Lewisham, London, SE13",SE13,2.0,51.4656075,-0.0200664,"Halesworth Rd, London SE13, UK"
 2953,375000.0,2 bedroom terraced house for sale,"Gables Close, London, SE12",SE12,2.0,51.4392407,0.0138671,"Gables Cl, London SE12, UK"
 2954,375000.0,1 bedroom flat for sale,"High Street, London, N8",N8,1.0,51.587736,-0.1177389,"High St, London N8, UK"
@@ -3472,7 +3460,6 @@
 3470,360000.0,1 bedroom apartment for sale,"Highshore Road, London, SE15",SE15,1.0,51.4714727,-0.0722378,"Highshore Rd, London SE15, UK"
 3471,360000.0,1 bedroom flat for sale,"Park Mansions, Vauxhall, London, SW8",SW8,1.0,51.4841124,-0.1227635,"Park Mansions, London SW8 1TW, UK"
 3472,360000.0,1 bedroom apartment for sale,"Trinity Walk, Gazella Heights, Woolwich, SE18 6BQ, SE18",SE18,1.0,51.4862055,0.06523369999999999,"London SE18 6BQ, UK"
-3473,price,type,address,postcode,number_bedrooms,empty,empty,empty
 3474,400000.0,1 bedroom apartment for sale,"Bridgestone House, Blue Anchor Lane, London, SE16",SE16,1.0,51.4931683,-0.0636366,"Blue Anchor Ln, London SE16, UK"
 3475,400000.0,1 bedroom flat for sale,"Prince of Wales Road, Kentish Town,NW5",NW5,1.0,51.5460055,-0.1486374,"Prince of Wales Rd, London NW5, UK"
 3476,400000.0,2 bedroom terraced house for sale,"Sladedale Road, Plumstead, London, SE18",SE18,2.0,51.4829633,0.0900644,"Sladedale Rd, London SE18, UK"
@@ -4142,7 +4129,6 @@
 4140,399000.0,Studio flat for sale,"Kensington Church Street, Royal Borough of Kensington and Chelsea, W8",W8,0.0,51.5055111,-0.1940999,"Kensington Church St, London, UK"
 4141,399000.0,1 bedroom flat for sale,"Glengall Road, London, NW6",NW6,1.0,51.5393483,-0.1992165,"Glengall Rd, North Maida Vale, London NW6, UK"
 4142,399000.0,2 bedroom flat for sale,"Queens Road, Peckham, London, SE15",SE15,2.0,51.47356,-0.05728999999999999,"Queens Road Peckham railway station, London SE15, UK"
-4143,price,type,address,postcode,number_bedrooms,empty,empty,empty
 4144,425000.0,1 bedroom apartment for sale,"Turner House, Cassilis Road, Isle Of Dogs, London, E14",E14,1.0,51.4981662,-0.0216435,"Turner House, Cassilis Rd, London E14 9LJ, UK"
 4145,425000.0,3 bedroom maisonette for sale,"Carmen Street, Poplar, London, United Kingdom, E14",E14,3.0,51.5148236,-0.0159695,"Carmen St, London E14, UK"
 4146,425000.0,2 bedroom maisonette for sale,"Tappesfield Road, London, SE15",SE15,2.0,51.4644922,-0.0560793,"Tappesfield Rd, London SE15, UK"
@@ -4799,7 +4785,6 @@
 4797,415000.0,1 bedroom apartment for sale,"Wansey Street, London, SE17",SE17,1.0,51.4918398,-0.0950502,"Wansey St, London SE17, UK"
 4798,415000.0,1 bedroom apartment for sale,"Clarendon Road,Wood Green,London,N8",N8,1.0,51.589472,-0.110687,"Clarendon Rd, London N8, UK"
 4799,415000.0,1 bedroom flat for sale,"3 Tidal Basin Road, London, E16",E16,1.0,51.508539,0.0156388,"3 Tidal Basin Rd, London E16 1UP, UK"
-4800,price,type,address,postcode,number_bedrooms,empty,empty,empty
 4801,425000,2 bedroom apartment for sale,"Knights Hill, West Norwood, London, SE27",SE27,2.0,51.429236,-0.1042386,"Knights Hill, Norwood, London SE27, UK"
 4802,450000,2 bedroom apartment for sale,"Sunny Lodge, 33a Sunningfields Road, Hendon, London, NW4",NW4,2.0,51.593889,-0.2264676,"Sunny Lodge, 33A Sunningfields Rd, London NW4 4QU, UK"
 4803,450000,2 bedroom flat for sale,"Fairfield Road, London E3",E3,2.0,51.5304934,-0.0217636,"Fairfield Rd, London E3, UK"
@@ -5494,7 +5479,6 @@
 5492,450000,2 bedroom apartment for sale,"The Oxygen Apartments, Royal Victoria Dock E16 ",E16,2.0,51.5077767,0.0300599,"Royal Victoria Dock, London E16 1XL, UK"
 5493,450000,1 bedroom flat for sale,"Stewarts Road, Nine Elms, London, SW8",SW8,1.0,51.474829,-0.1402057,"Stewart's Rd, Nine Elms, London SW8, UK"
 5494,450000,1 bedroom penthouse for sale,"Morville Street, London, E3",E3,1.0,51.531261,-0.0243267,"Morville St, London E3, UK"
-5495,price,type,address,postcode,number_bedrooms,empty,empty,empty
 5496,475000,1 bedroom flat for sale,"Gaumont Tower, London, E8",E8,1.0,51.5456918,-0.0740406,"Gaumont Tower, Dalston Square, London E8 3BQ, UK"
 5497,475000,3 bedroom terraced house for sale,"Lucknow Street Plumstead, SE18",SE18,3.0,51.4773206,0.0882268,"Lucknow St, London SE18, UK"
 5498,475000,1 bedroom apartment for sale,"Duke Of Wellington Avenue, Woolwich, London, SE18",SE18,1.0,51.4931995,0.0719556,"Duke of Wellington Ave, London SE18, UK"
@@ -6196,7 +6180,6 @@
 6194,460000,2 bedroom apartment for sale,"Grenade Street, Limehouse, E14",E14,2.0,51.5103195,-0.0285747,"Grenade St, London E14, UK"
 6195,460000,1 bedroom flat for sale,"City Road, Angel, London, EC1V",EC1V,1.0,51.5293692,-0.0960137,"City Rd, London EC1V, UK"
 6196,460000,1 bedroom flat for sale,"Ensign Street, Ensign Street, London E1",E1,1.0,51.5098966,-0.0672882,"Ensign St, London, UK"
-6197,price,type,address,postcode,number_bedrooms,empty,empty,empty
 6198,499000.0,1 bedroom apartment for sale,"Arka House Whetstone, London, N20 0LH",N20,1.0,51.6293662,-0.1744992,"1238 High Rd, London N20 0LH, UK"
 6199,500000.0,2 bedroom apartment for sale,"Tottenham Road, N1 4DD",N1,2.0,51.5453758,-0.0786196,"Tottenham Rd, London N1 4DD, UK"
 6200,500000.0,Studio flat for sale,"Meriden Court, Chelsea Manor Street, Chelsea, London, SW3",SW3,0.0,51.4885686,-0.1687097,"Meriden Court, Chelsea Manor St, London SW3 3TT, UK"
@@ -6857,7 +6840,6 @@
 6855,499995.0,1 bedroom apartment for sale,"Adolphus Road, N4 2AY",N4,1.0,51.5675708,-0.0980696,"Adolphus Rd, Finsbury Park, London N4 2AY, UK"
 6856,499995.0,1 bedroom apartment for sale,"Gosnold House, Parkside West, London, E14",E14,1.0,51.5097502,-0.017595,"London E14, UK"
 6857,499995.0,1 bedroom apartment for sale,"The Village Square,West Parkside,Greenwich,London,SE10 0BD",SE10,1.0,51.4939838,0.0135306,"W Parkside, London SE10 0BD, UK"
-6858,price,type,address,postcode,number_bedrooms,empty,empty,empty
 6859,550000.0,3 bedroom house for sale,"Michael Road, South Norwood, London, SE25",SE25,3.0,51.401909,-0.0877987,"Michael Rd, London SE25, UK"
 6860,550000.0,2 bedroom house for sale,"Selwyn Road, Craven Park, London, NW10 8QY",NW10,2.0,51.5440838,-0.2564915,"Selwyn Rd, London NW10 8QY, UK"
 6861,550000.0,2 bedroom ground floor flat for sale,"Selsdon Road, London, SE27",SE27,2.0,51.4313426,-0.1090871,"Selsdon Rd, Norwood, London SE27, UK"
@@ -6912,7 +6894,6 @@
 6910,550000.0,3 bedroom terraced house for sale,"Dunloe Avenue, London N17",N17,3.0,51.5910061,-0.0842454,"Dunloe Ave, London N17, UK"
 6911,550000.0,1 bedroom apartment for sale,"Burghley Road, Kentish Town, London, NW5",NW5,1.0,51.5550361,-0.1418448,"Burghley Rd, London NW5, UK"
 6912,550000.0,2 bedroom apartment for sale,"27 Arklow Road, London, SE14",SE14,2.0,51.4808108,-0.0343839,"27 Arklow Rd, London SE14 6AZ, UK"
-6913,550000.0,2 bedroom flat for sale,"Windsor Court, NW11",NW11,2.0,empty,empty,empty
 6914,550000.0,3 bedroom apartment for sale,"Wolverton Mansions, London, W5",W5,3.0,51.5107605,-0.2886917,"Wolverton Mansions, Uxbridge Rd, London W5 3LA, UK"
 6915,550000.0,2 bedroom flat for sale,"Wapping High Street, London, E1W",E1W,2.0,51.5034591,-0.0616763,"Wapping High St, London E1W, UK"
 6916,550000.0,3 bedroom apartment for sale,"Warley House, 66 Mitchison Road, Islington, London, N1",N1,3.0,51.5444726,-0.08493339999999999,"Warley House, Mitchison Rd, London N1 3NH, UK"
@@ -7257,7 +7238,6 @@
 7255,550000.0,1 bedroom flat for sale,"Oxford Gardens, Ladbroke Grove, W10",W10,1.0,51.5188947,-0.2109068,"Ladbroke Grove & Oxford Gardens, London W10 5LZ, UK"
 7256,550000.0,2 bedroom flat for sale,"Lower Clapton Road, Clapton, E5",E5,2.0,51.5536564,-0.0535123,"Lower Clapton Rd, London E5, UK"
 7257,550000.0,1 bedroom apartment for sale,"Amhurst Road, London, N16",N16,1.0,51.5518428,-0.0659232,"Amhurst Rd, London N16, UK"
-7258,550000.0,Studio flat for sale,"Kensington Apartments, E1",E1,0.0,empty,empty,empty
 7259,550000.0,1 bedroom flat for sale,"George Street, London, W1H",W1H,1.0,51.5170486,-0.1577986,"George St, London W1H, UK"
 7260,550000.0,2 bedroom apartment for sale,"Minster Court, 28 Hillcrest Road, London, W5",W5,2.0,51.5244568,-0.2930338,"w5, Minster Court, 28 Hillcrest Rd, London W5 1HH, UK"
 7261,550000.0,2 bedroom flat for sale,"Albany Road, London SE5",SE5,2.0,51.4847151,-0.0836593,"Albany Rd, London SE5, UK"
@@ -7570,7 +7550,6 @@
 7568,550000.0,1 bedroom flat for sale,"Latimer Road, North Kensington, London, W10",W10,1.0,51.5176134,-0.2238843,"Latimer Rd, London W10, UK"
 7569,550000.0,2 bedroom flat for sale,"Ormonde Court, NW4",NW4,2.0,51.5943184,-0.216777,"Ormonde Court, Parson St, London NW4 1RE, UK"
 7570,550000.0,3 bedroom flat for sale,"Tavistock Crescent, Notting Hill, London, W11",W11,3.0,51.5204968,-0.2014752,"Tavistock Cres, London W11, UK"
-7571,price,type,address,postcode,number_bedrooms,empty,empty,empty
 7572,600000.0,3 bedroom end of terrace house for sale,Solway Road N22,N22,3.0,51.6007245,-0.1013257,"Solway Rd, London N22, UK"
 7573,600000.0,3 bedroom town house for sale,"Crystal Palace Road, East Dulwich, London, SE22",SE22,3.0,51.4548546,-0.0720453,"Crystal Palace Rd, London SE22, UK"
 7574,600000.0,1 bedroom apartment for sale,"Artillery Row, Westminster, London, SW1P",SW1P,1.0,51.4972472,-0.1355867,"Artillery Row, London SW1P, UK"
@@ -8194,7 +8173,6 @@
 8192,599950.0,2 bedroom flat for sale,"Margil House, Singapore Road, Ealing, W13",W13,2.0,51.5109147,-0.3258874,"Singapore Rd, London W13 0FD, UK"
 8193,599950.0,2 bedroom apartment for sale,"Page Street, Westminster, London, SW1P",SW1P,2.0,51.4939427,-0.129421,"Page St, London SW1, UK"
 8194,550000.0,2 bedroom flat for sale,"Finborough Road, London, SW10",SW10,2.0,51.48576,-0.1885852,"Finborough Rd, London SW10, UK"
-8195,599950.0,2 bedroom flat for sale,"Windsor Court, NW11",NW11,2.0,empty,empty,empty
 8196,599950.0,3 bedroom semi-detached house for sale,"Dale View Avenue, North Chingford E4",E4,3.0,51.6236261,-0.0014976,"Dale View Ave, London E4, UK"
 8197,599950.0,1 bedroom apartment for sale,"121 Upper Richmond Road, Putney, SW15 2DW",SW15,1.0,51.4600156,-0.2142297,"121 Upper Richmond Rd, London SW15 2DU, UK"
 8198,599950.0,2 bedroom apartment for sale,"Courtleigh Gardens, London, NW11",NW11,2.0,51.5868487,-0.2081927,"Courtleigh Gardens, London NW11, UK"
@@ -8273,7 +8251,6 @@
 8271,598000.0,2 bedroom apartment for sale,"Johanna Court, Oxbow, Aberfeldy Village, E14",E14,2.0,51.5132491,-0.0001976,"Abbott Rd, Aberfeldy Village, London E14 0ND, UK"
 8272,597500.0,3 bedroom flat for sale,"Sycamore Road, Wimbledon Common, SW19",SW19,3.0,51.422043,-0.2292156,"Sycamore Rd, London SW19, UK"
 8273,597500.0,2 bedroom flat for sale,"Boston Road,London,W7",W7,2.0,51.5028402,-0.331717,"Boston Rd, London W7, UK"
-8274,price,type,address,postcode,number_bedrooms,empty,empty,empty
 8275,650000,3 bedroom flat for sale,"Carrick Court, 5 Nicholson Square, Bow, London, E3",E3,3.0,51.5283702,-0.0107671,"5 Nicholson Square, London E3 3UD, UK"
 8276,650000,1 bedroom flat for sale,"Old Brompton Road, Earl's Court, SW5",SW5,1.0,51.4900167,-0.1879471,"Old Brompton Rd, London SW5, UK"
 8277,650000,3 bedroom flat for sale,"Royal Drive, New Southgate, N11",N11,3.0,51.6131326,-0.1480918,"Royal Dr, London N11, UK"
@@ -8282,7 +8259,6 @@
 8280,650000,3 bedroom maisonette for sale,"Grove Road, London, SW13",SW13,3.0,51.472631,-0.2500229,"Grove Rd, London SW13, UK"
 8281,650000,1 bedroom flat for sale,"Rosslyn Hill, London, NW3",NW3,1.0,51.5538858,-0.1705421,"Rosslyn Hill, London NW3, UK"
 8282,650000,1 bedroom apartment for sale,"Battersea Roof Gardens, Battersea Power Station, London SW8",SW8,1.0,51.48202029999999,-0.1444907,"Circus Rd W, Nine Elms, London SW8 5BN, UK"
-8283,650000,1 bedroom flat for sale,", Primrose, NW1",NW1,1.0,empty,empty,empty
 8284,650000,2 bedroom flat for sale,"Anchor House, Smugglers Way, London, SW18",SW18,2.0,51.4624766,-0.1902941,"Anchor House, Smugglers Way, London SW18 1EL, UK"
 8285,650000,3 bedroom flat for sale,"Russell Place, Rotherhithe, London, SE16",SE16,3.0,51.4954846,-0.0392933,"Russell Pl, London SE16, UK"
 8286,650000,2 bedroom maisonette for sale,"Aston Mews, 103 Kilburn Lane, Kensal Rise, London, W10",W10,2.0,51.5317652,-0.2140004,"Aston Mews, 103 Kilburn Ln, London W10 4AN, UK"
@@ -8478,7 +8454,6 @@
 8476,650000,1 bedroom flat for sale,"Kew Bridge Road, Brentford, TW8",TW8,1.0,51.4886781,-0.2891526,"Kew Bridge Rd, Brentford TW8, UK"
 8477,650000,3 bedroom flat for sale,"Drayton Park, Islington, London, N5",N5,3.0,51.5546147,-0.1053653,"Drayton Park, London N5, UK"
 8478,650000,2 bedroom apartment for sale,"Astell House, 35 Lyell Street, City Island, E14",E14,2.0,51.5127081,0.0059488,"35 Lyell St, Leamouth Peninsula, London E14 0SU, UK"
-8479,650000,2 bedroom apartment for sale,"Empress Works, E2",E2,2.0,empty,empty,empty
 8480,650000,2 bedroom house for sale,"Havelock Road, London, SW19",SW19,2.0,51.4270475,-0.1880106,"Havelock Rd, London SW19, UK"
 8481,650000,4 bedroom town house for sale,Alanthus Close Lee SE12,SE12,4.0,51.4519317,0.0137176,"Alanthus Cl, London SE12, UK"
 8482,650000,1 bedroom flat for sale,"Neal Street, London, WC2H",WC2H,1.0,51.5140082,-0.1251846,"Neal St, London WC2H, UK"
@@ -8988,7 +8963,6 @@
 8986,645000,2 bedroom apartment for sale,"Jeddo Road, Shepherds Bush, W12",W12,2.0,51.504308,-0.247977,"Jeddo Rd, London W12, UK"
 8987,645000,2 bedroom penthouse for sale,"Barrowgate Road, Chiswick, W4",W4,2.0,51.4885739,-0.2642866,"Barrowgate Rd, Chiswick, London W4, UK"
 8988,645000,1 bedroom apartment for sale,"Emery Wharf, London Dock, Wapping, E1W",E1W,1.0,51.508952,-0.067193,"1 Emery Way, London E1W 2AS, UK"
-8989,price,type,address,postcode,number_bedrooms,empty,empty,empty
 8990,700000.0,2 bedroom apartment for sale,"Downham Road, Islington, London, N1",N1,2.0,51.5393818,-0.0830534,"Downham Rd, London N1, UK"
 8991,700000.0,2 bedroom flat for sale,"Eric Street, London, E3",E3,2.0,51.5231261,-0.0328754,"Eric St, London E3, UK"
 8992,700000.0,3 bedroom flat for sale,"Atheldene Road, Wandsworth, London, SW18",SW18,3.0,51.446733,-0.1877431,"Atheldene Rd, London SW18, UK"
@@ -9475,7 +9449,6 @@
 9473,695000.0,1 bedroom flat for sale,"Kings Road, London, SW3",SW3,1.0,51.487385,-0.168884,"King's Rd, London SW3, UK"
 9474,680000.0,3 bedroom flat for sale,"Fairfax Road, Swiss Cottage, London NW6",NW6,3.0,51.5438696,-0.1786883,"Fairfax Rd, London NW6, UK"
 9475,695000.0,1 bedroom flat for sale,"Vincent Square, Westminster, London, SW1P 2PF",SW1P,1.0,51.4939767,-0.1339588,"Vincent Square, London SW1, UK"
-9476,695000.0,2 bedroom apartment for sale,"Osprey House, E14",E14,2.0,empty,empty,empty
 9477,695000.0,2 bedroom apartment for sale,"Clarendon Road,Wood Green,London,N8",N8,2.0,51.589472,-0.110687,"Clarendon Rd, London N8, UK"
 9478,695000.0,Studio flat for sale,"Frognal Rise, Hampstead Village, NW3",NW3,0.0,51.5585591,-0.180873,"Frognal Rise, London NW3, UK"
 9479,695000.0,2 bedroom maisonette for sale,"Highbury Hill, London N5",N5,2.0,51.5555225,-0.1031488,"Highbury Hill, London N5, UK"
@@ -9670,7 +9643,6 @@
 9668,685000.0,3 bedroom apartment for sale,"Glenburnie Road,London,SW17",SW17,3.0,51.4360169,-0.1644024,"Glenburnie Rd, London SW17, UK"
 9669,685000.0,2 bedroom flat for sale,"Ladbroke Grove, London, W10",W10,2.0,51.5189848,-0.2109564,"Ladbroke Grove, London W10, UK"
 9670,685000.0,2 bedroom flat for sale,"Mapesbury Road, Mapesbury Estate, London, NW2",NW2,2.0,51.5475024,-0.2105405,"Mapesbury Rd, London NW2, UK"
-9671,price,type,address,postcode,number_bedrooms,empty,empty,empty
 9672,700000.0,2 bedroom flat for sale,"Alkham Road, N16",N16,2.0,51.5651171,-0.0694133,"Alkham Rd, London N16, UK"
 9673,800000.0,5 bedroom terraced house for sale,"Rainbow Street, London, ,, SE5 7TD",SE5,5.0,51.4789907,-0.0842615,"Rainbow St, London SE5 7TD, UK"
 9674,800000.0,1 bedroom apartment for sale,"Harrington Road, London, SW7",SW7,1.0,51.4940176,-0.1767056,"Harrington Rd, South Kensington, London SW7, UK"
@@ -9795,7 +9767,6 @@
 9793,800000.0,2 bedroom flat for sale,"Kew Bridge Road, Brentford, TW8",TW8,2.0,51.4886781,-0.2891526,"Kew Bridge Rd, Brentford TW8, UK"
 9794,800000.0,3 bedroom flat for sale,"Harrow Road, Westbourne Park, London, W9",W9,3.0,51.5260261,-0.20501,"Harrow Rd, London, UK"
 9795,800000.0,2 bedroom flat for sale,"21 Ravenscourt Gardens, London, W6",W6,2.0,51.4955215,-0.2423038,"21 Ravenscourt Gardens, London W6 0TU, UK"
-9796,800000.0,4 bedroom maisonette for sale,"Crescent Road, Alexandra Park, N22",N22,4.0,empty,empty,empty
 9797,800000.0,3 bedroom end of terrace house for sale,"Kenilford Road, London, SW12",SW12,3.0,51.4481994,-0.1454978,"Kenilford Rd, London SW12, UK"
 9798,800000.0,1 bedroom apartment for sale,"Rosebery Avenue, London, EC1R",EC1R,1.0,51.5263322,-0.109313,"Rosebery Ave, London EC1R, UK"
 9799,800000.0,2 bedroom apartment for sale,"Disraeli Road, London, SW15",SW15,2.0,51.460976,-0.2125886,"Disraeli Rd, London SW15, UK"
@@ -10139,7 +10110,6 @@
 10137,799000.0,1 bedroom flat for sale,"One Thames City, Nine Elms Lane, London, SW8",SW8,1.0,51.4826157,-0.127942,"Nine Elms Ln, Nine Elms, London SW8 5EL, UK"
 10138,799000.0,2 bedroom apartment for sale,"West India Quay, Hertsmere Rd, London E14 4AF, UK",E14,2.0,51.5076549,-0.0238721,"West India Quay, Hertsmere Rd, London E14 4AE, UK"
 10139,799000.0,2 bedroom terraced house for sale,"Glenburnie Road, London, SW17",SW17,2.0,51.4360169,-0.1644024,"Glenburnie Rd, London SW17, UK"
-10140,799000.0,3 bedroom apartment for sale,"Newlands, NW4",NW4,3.0,empty,empty,empty
 10141,799000.0,Studio flat for sale,"Bondway, London, SW8",SW8,0.0,51.4844388,-0.1246534,"Bondway, London SW8, UK"
 10142,799000.0,2 bedroom apartment for sale,Hackney Gardens E8,E8,2.0,51.5489946,-0.0540351,"London E8 1FU, UK"
 10143,799000.0,2 bedroom apartment for sale,"One West Point, Portal Way, W3",W3,2.0,51.5219031,-0.2619062,"6 Portal Way, London W3 6RU, UK"
@@ -10235,7 +10205,6 @@
 10233,795000.0,3 bedroom apartment for sale,"Berens Road, London, NW10",NW10,3.0,51.5298772,-0.2194227,"Berens Rd, London NW10, UK"
 10234,795000.0,1 bedroom apartment for sale,"Rufford Mews, 1 Rufford Street, London, N1",N1,1.0,51.5397926,-0.122043,"1 Rufford Street Mews, London N1C, UK"
 10235,795000.0,2 bedroom flat for sale,"Cromwell Road, London, SW7",SW7,2.0,51.4950984,-0.1814309,"Cromwell Rd, London SW7, UK"
-10236,795000.0,1 bedroom apartment for sale,"Blake Tower, EC2",EC2,1.0,empty,empty,empty
 10237,750000.0,2 bedroom apartment for sale,"Tarling House, Elephant & Castle SE1",SE1,2.0,51.4914382,-0.09683979999999999,"3 Walworth Square, London SE17 1GA, UK"
 10238,795000.0,2 bedroom flat for sale,"Hazlebury Road, Fulham, London, SW6",SW6,2.0,51.4713396,-0.1894067,"Hazlebury Rd, London SW6, UK"
 10239,795000.0,1 bedroom apartment for sale,"Hoxton Square, London, N1",N1,1.0,51.5278859,-0.0815593,"Hoxton Square, London N1, UK"
@@ -10451,7 +10420,6 @@
 10449,775000.0,3 bedroom flat for sale,"Challoner Court, Challoner Street, London, W14",W14,3.0,51.4887787,-0.2064317,"Challoner Court, Challoner St, London W14 9LB, UK"
 10450,775000.0,2 bedroom flat for sale,"Leathwaite Road, Between the Commons, London, SW11",SW11,2.0,51.4583956,-0.161624,"Leathwaite Rd, London SW11, UK"
 10451,775000.0,3 bedroom flat for sale,"Kerrison Road, Battersea, SW11",SW11,3.0,51.4683738,-0.1693867,"Kerrison Rd, London SW11, UK"
-10452,price,type,address,postcode,number_bedrooms,empty,empty,empty
 10453,825000.0,2 bedroom apartment for sale,"Ashley Mansions, Vauxhall Bridge Road,  Westminster, SW1V",SW1V,2.0,51.4924837,-0.137412,"Vauxhall Bridge Rd, London SW1, UK"
 10454,900000.0,2 bedroom flat for sale,"Prince Of Wales Mansions, Prince Of Wales Drive, London, SW11",SW11,2.0,51.4771977,-0.1498845,"Prince of Wales Mansions, Prince of Wales Dr, London SW11 4BG, UK"
 10455,900000.0,3 bedroom apartment for sale,"Hornbeam House, 22 Quebec Way, Canada Water, London, SE16",SE16,3.0,51.4984464,-0.0414777,"22 Quebec Way, London SE16 7EW, UK"
@@ -10508,7 +10476,6 @@
 10506,900000.0,2 bedroom apartment for sale,"Sky Gardens, 155 Wandworth Road, London, SW8",SW8,2.0,51.4816997,-0.1271357,"155 Wandsworth Rd, London SW8 2FW, UK"
 10507,875000.0,2 bedroom apartment for sale,"Kensington Park Road, Notting Hill, London, W11",W11,2.0,51.5123513,-0.2026094,"Kensington Park Rd, London W11, UK"
 10508,900000.0,4 bedroom apartment for sale,"Colney Hatch Lane, Muswell Hill, London, N10",N10,4.0,51.6021065,-0.1479517,"Colney Hatch Ln, London N10, UK"
-10509,900000.0,4 bedroom semi-detached house for sale,"Delacourt House, SE3",SE3,4.0,empty,empty,empty
 10510,900000.0,2 bedroom apartment for sale,"Elgin Court, 164 Elgin Avenue, London, W9",W9,2.0,51.5274252,-0.1910938,"Elgin Court, 164 Elgin Ave, London W9 2NU, UK"
 10511,900000.0,3 bedroom duplex for sale,"Freegrove Road, Islington, London, N7",N7,3.0,51.5519965,-0.1205768,"Freegrove Rd, London N7, UK"
 10512,900000.0,3 bedroom terraced house for sale,"Roseberry Gardens, London, N4",N4,3.0,51.5796424,-0.0965149,"Roseberry Gardens, Harringay Ladder, London N4, UK"
@@ -10724,7 +10691,6 @@
 10722,900000.0,3 bedroom apartment for sale,"King Henry's Reach, Manbre Road, London, W6",W6,3.0,51.4859878,-0.2237642,"King Henry's Reach & Manbre Road, London W6 9SY, UK"
 10723,900000.0,2 bedroom apartment for sale,"Redcliffe Gardens, London, SW10",SW10,2.0,51.4867031,-0.1875171,"Redcliffe Gardens, London SW10, UK"
 10724,900000.0,2 bedroom flat for sale,"Mornington Place, Camden Town, NW1",NW1,2.0,51.5336715,-0.1413379,"Mornington Pl, London NW1, UK"
-10725,900000.0,4 bedroom maisonette for sale,"Crescent Road, Alexandra Park, N22",N22,4.0,empty,empty,empty
 10726,900000.0,4 bedroom detached house for sale,"Rosenthorpe Road, Nunhead, London, SE15",SE15,4.0,51.4560552,-0.0489781,"Rosenthorpe Rd, London SE15, UK"
 10727,900000.0,5 bedroom terraced house for sale,"Havant Road, Walthamstow, London, E17",E17,5.0,51.5885276,-0.0066857,"Havant Rd, London E17, UK"
 10728,900000.0,3 bedroom flat for sale,"Munster Road, London, SW6",SW6,3.0,51.4769571,-0.2096899,"Munster Rd, London SW6, UK"
@@ -11198,7 +11164,6 @@
 11196,875000.0,2 bedroom apartment for sale,"Allfarthing Lane, London, SW18",SW18,2.0,51.4524427,-0.1858645,"Allfarthing Ln, London SW18, UK"
 11197,875000.0,2 bedroom flat for sale,"Worple Road, Wimbledon, London, SW19",SW19,2.0,51.4156551,-0.2185247,"Worple Rd, London SW19, UK"
 11198,875000.0,3 bedroom flat for sale,"PARK MANSIONS, KNIGHTSBRIDGE, London, SW1X",SW1X,3.0,51.50139979999999,-0.1620749,"Park Mansions, Knightsbridge, London SW1X 7QS, UK"
-11199,price,type,address,postcode,number_bedrooms,empty,empty,empty
 11200,975000.0,3 bedroom end of terrace house for sale,"Dundonald Road, Kensal Rise, NW10",NW10,3.0,51.5373994,-0.2183699,"Dundonald Rd, London NW10, UK"
 11201,1000000.0,2 bedroom duplex for sale,"St Anns Road, Barnes, London, SW13",SW13,2.0,51.4742448,-0.2498796,"St Anns Rd, London SW13, UK"
 11202,1000000.0,3 bedroom house for sale,"Biddestone Road, Islington, London, N7",N7,3.0,51.5547515,-0.1166244,"Biddestone Rd, London N7, UK"
@@ -11278,7 +11243,6 @@
 11276,1000000.0,2 bedroom penthouse for sale,"Botanic Square, London, E14",E14,2.0,51.5114575,0.0057297,"Botanic Sq, Leamouth Peninsula, London E14, UK"
 11277,1000000.0,3 bedroom apartment for sale,"Newington Causeway, London, SE1",SE1,3.0,51.4973154,-0.0990542,"Newington Causeway, London SE1, UK"
 11278,1000000.0,6 bedroom house for sale,"Manger Road, Caledonian Road, London, N7",N7,6.0,51.548262,-0.1213181,"Manger Rd, London N7, UK"
-11279,1000000.0,3 bedroom house for sale,"Falkland Mews, Kentish Town, NW5",NW5,3.0,empty,empty,empty
 11280,1000000.0,4 bedroom detached house for sale,"Queens Walk, Kingsbury, London, NW9",NW9,4.0,51.5685759,-0.2650433,"Queens Walk, London NW9, UK"
 11281,1000000.0,2 bedroom house for sale,"Zulu Mews, London, SW11",SW11,2.0,51.470362,-0.1671982,"Zulu Mews, London SW11, UK"
 11282,1000000.0,3 bedroom terraced house for sale,"Alfriston Road, London, SW11",SW11,3.0,51.4579657,-0.159614,"Alfriston Rd, London SW11, UK"
@@ -11378,7 +11342,6 @@
 11376,1000000.0,3 bedroom terraced house for sale,"Somerford Grove, London, N16 ",N16,3.0,51.5539557,-0.0733574,"Somerford Grove, London N16, UK"
 11377,1000000.0,3 bedroom apartment for sale,"Kendal Place, London, SW15",SW15,3.0,51.4577242,-0.2083891,"Kendal Pl, London SW15, UK"
 11378,1000000.0,2 bedroom apartment for sale,"Hobart Building, Wardian, Canary Wharf, E14",E14,2.0,51.5014844,-0.022291,"Wards Place, London E14 9TP, UK"
-11379,1000000.0,2 bedroom apartment for sale,"City Harbour, E14",E14,2.0,empty,empty,empty
 11380,1000000.0,2 bedroom terraced house for sale,"Mascotte Road, London, SW15",SW15,2.0,51.4651363,-0.2167821,"Mascotte Rd, London SW15, UK"
 11381,1000000.0,1 bedroom apartment for sale,"Hans Crescent, SW1X",SW1X,1.0,51.4994049,-0.1616764,"Hans Cres, London SW1X, UK"
 11382,1000000.0,4 bedroom house for sale,"Tintern Close, London, SW15",SW15,4.0,51.4565006,-0.2154798,"Tintern Cl, London SW15, UK"
@@ -11417,7 +11380,6 @@
 11415,1000000.0,2 bedroom flat for sale,"Finchley Road, Hampstead, London, NW3",NW3,2.0,51.5532546,-0.189203,"Finchley Rd, London NW3, UK"
 11416,1000000.0,2 bedroom flat for sale,"Dudley Court, 36 Endell Street, London, WC2H",WC2H,2.0,51.5152718,-0.1255918,"Dudley Court, 36 Endell St, London WC2H 9RA, UK"
 11417,1000000.0,1 bedroom flat for sale,"Cheyne Gardens, London, SW3",SW3,1.0,51.4843802,-0.1657598,"Cheyne Gardens, London SW3, UK"
-11418,1000000.0,2 bedroom flat for sale,"The Avenue, Bedford Park, W4",W4,2.0,empty,empty,empty
 11419,1000000.0,2 bedroom apartment for sale,"Canaletto Tower, 257 City Road, London, EC1V",EC1V,2.0,51.5295479,-0.09562970000000001,"257 City Rd, London EC1V 1AD, UK"
 11420,1000000.0,3 bedroom apartment for sale,"Marloes Road, London, W8",W8,3.0,51.4964123,-0.1922796,"Marloes Rd, London W8, UK"
 11421,1000000.0,3 bedroom maisonette for sale,"Bromfield Street, Angel, Islington, London, N1",N1,3.0,51.5349599,-0.1070823,"Bromfield St, London N1, UK"
@@ -11584,7 +11546,6 @@
 11582,999000.0,3 bedroom flat for sale,"Park Road, Marylebone, NW1",NW1,3.0,51.5268144,-0.1634956,"Park Rd, London NW1, UK"
 11583,999000.0,2 bedroom flat for sale,"Wood Crescent, London, W12",W12,2.0,51.5107092,-0.2265711,"Wood Cres, London W12, UK"
 11584,999000.0,3 bedroom apartment for sale,"Muswell Hill, London N10",N10,3.0,51.59644429999999,-0.1443287,"London N10, UK"
-11585,999000.0,2 bedroom town house for sale,"The Lexington, NW11",NW11,2.0,empty,empty,empty
 11586,990000.0,2 bedroom apartment for sale,"Errington House, Brigade Court, Southwark Bridge Road, SE1",SE1,2.0,51.5025291,-0.09748989999999999,"94 Southwark Bridge Rd, London SE1 0EG, UK"
 11587,999000.0,1 bedroom flat for sale,"Oakley House, Battersea Power Station, Battersea, London, SW11",SW11,1.0,51.4808137,-0.1405796,"Battersea Power Station, Kirtling St, Nine Elms, London SW11 8BU, UK"
 11588,999000.0,3 bedroom apartment for sale,"Hillview Gardens,Hendon,NW4 2JR",NW4,3.0,51.5886634,-0.2131697,"Hillview Gardens, London NW4, UK"
@@ -11766,7 +11727,6 @@
 11764,985000.0,2 bedroom apartment for sale,"Canaletto Tower, EC1V",EC1V,2.0,51.5295479,-0.09562970000000001,"257 City Rd, London EC1V 1AD, UK"
 11765,985000.0,1 bedroom apartment for sale,"Bond Mansions, 285 Edgware Road, London, Greater London, W2",W2,1.0,51.5210442,-0.1718233,"285 Edgware Rd, London W2 1BY, UK"
 11766,985000.0,1 bedroom apartment for sale,"Principal Place, Worship Street, London, EC2A",EC2A,1.0,51.52189250000001,-0.0791915,"1 Principal Place, London EC2A 2BA, UK"
-11767,982000.0,2 bedroom apartment for sale,"Walton Heights, Elephant and Castle, SE17",SE17,2.0,empty,empty,empty
 11768,981750.0,3 bedroom duplex for sale,"King Court, Canary Wharf, E14",E14,3.0,51.5054306,-0.0235333,"Canary Wharf, London E14, UK"
 11769,980000.0,1 bedroom flat for sale,"Brompton Road, Knightsbridge, London, SW3",SW3,1.0,51.4986816,-0.1654069,"Brompton Rd, London, UK"
 11770,980000.0,2 bedroom apartment for sale,"Elm Park Mansions, London, SW10",SW10,2.0,51.48511010000001,-0.179398,"Park Walk, London SW10, UK"
@@ -11972,7 +11932,6 @@
 11970,950000.0,4 bedroom terraced house for sale,"Ravenslea Road, London, SW12",SW12,4.0,51.4455454,-0.1609123,"Ravenslea Rd, London SW12, UK"
 11971,950000.0,3 bedroom semi-detached house for sale,"Honor Oak Rise, London, SE23",SE23,3.0,51.4502676,-0.0541,"Honor Oak Rise, London SE23, UK"
 11972,950000.0,2 bedroom flat for sale,"Southampton Row, Bloomsbury, London, WC1B",WC1B,2.0,51.519616,-0.1218432,"Southampton Row, London WC1B, UK"
-11973,price,type,address,postcode,number_bedrooms,empty,empty,empty
 11974,1175000,2 bedroom flat for sale,"Eccleston Square, London, SW1V",SW1V,2.0,51.4915825,-0.1453318,"Eccleston Square, Pimlico, London SW1V, UK"
 11975,1250000,2 bedroom flat for sale,"Macready House, Crawford Street, London, W1H",W1H,2.0,51.51888229999999,-0.1637183,"Macready House, 75 Crawford St, London W1H 5LP, UK"
 11976,1250000,2 bedroom flat for sale,"Coleherne Road, Earls Court, London, SW10",SW10,2.0,51.4886142,-0.1909661,"Coleherne Rd, London, UK"
@@ -12094,7 +12053,6 @@
 12092,1250000,2 bedroom flat for sale,"Grove End Road, St John's Wood, London, NW8",NW8,2.0,51.5310445,-0.1767,"Grove End Rd, London NW8, UK"
 12093,1250000,4 bedroom terraced house for sale,"Glengall Road, Peckahm, SE15",SE15,4.0,51.4798706,-0.0709887,"Glengall Rd, London, UK"
 12094,1250000,2 bedroom flat for sale,"Tower One, The Corniche, 24 Albert Embankment, Nine Elms, London, SE1",SE1,2.0,51.4899439,-0.1227787,"24 Albert Embankment, London SE1 7AP, UK"
-12095,1250000,2 bedroom apartment for sale,"Onyx Apartments, N1C",N1C,2.0,empty,empty,empty
 12096,1250000,3 bedroom flat for sale,"Rochester Row, Westminster, London, SW1P",SW1P,3.0,51.4942081,-0.1367983,"Rochester Row, London SW1, UK"
 12097,1250000,2 bedroom apartment for sale,"Carrara Tower, 250 City Road, London, EC1",EC1,2.0,51.5288976,-0.0969623,"City Form, 250 City Rd, London EC1V 8AS, UK"
 12098,1250000,2 bedroom flat for sale,"Artesian Road, Notting Hill, W2",W2,2.0,51.5155554,-0.1970554,"Artesian Rd, London W2, UK"
@@ -12307,7 +12265,6 @@
 12305,1225000,2 bedroom flat for sale,Stanhope Gardens South Kensington SW7,SW7,2.0,51.4941083,-0.1800362,"Stanhope Gardens, South Kensington, London SW7, UK"
 12306,1225000,3 bedroom property for sale,"Silk District, London, E1",E1,3.0,51.518643,-0.05730929999999999,"132 Cavell St, London E1 2JA, UK"
 12307,1225000,2 bedroom apartment for sale,"Warrington Gardens, London, W9",W9,2.0,51.5239542,-0.1847088,"Warrington Gardens, London W9, UK"
-12308,1225000,2 bedroom apartment for sale,"Sharel Court, NW11",NW11,2.0,empty,empty,empty
 12309,1225000,3 bedroom flat for sale,"Redington Road, Hampstead, London, NW3",NW3,3.0,51.5584193,-0.1881904,"Redington Rd, London NW3, UK"
 12310,1225000,2 bedroom maisonette for sale,"Caversham Road, London, NW5",NW5,2.0,51.5485858,-0.1372927,"Caversham Rd, London NW5, UK"
 12311,1225000,2 bedroom flat for sale,"Coleherne Road, Earls Court, London, SW10",SW10,2.0,51.4886142,-0.1909661,"Coleherne Rd, London, UK"
@@ -12383,7 +12340,6 @@
 12381,1200000,3 bedroom flat for sale,"Warrington Crescent, Little Venice, London, W9",W9,3.0,51.5254527,-0.1841485,"Warrington Cres, London W9, UK"
 12382,1200000,2 bedroom apartment for sale,Horizons Tower London E14,E14,2.0,51.5049439,-0.0068712,"1 Yabsley St, London E14 9RG, UK"
 12383,1200000,2 bedroom flat for sale,"Embassy Gardens, London, SW11",SW11,2.0,51.4820931,-0.1306965,"3 Viaduct Gdns, Nine Elms, London SW11 7AY, UK"
-12384,1200000,3 bedroom apartment for sale,"Springham Walk, SE10",SE10,3.0,empty,empty,empty
 12385,1200000,3 bedroom terraced house for sale,"Clave Street, London, E1W",E1W,3.0,51.5050866,-0.0560353,"Clave St, London E1W, UK"
 12386,1200000,2 bedroom apartment for sale,"Nevern Place, Earl's Court, London, SW5",SW5,2.0,51.49299,-0.1956099,"Nevern Pl, London SW5, UK"
 12387,1200000,4 bedroom detached house for sale,Breakspears Road London SE4,SE4,4.0,51.4645213,-0.0289238,"Breakspears Rd, London SE4, UK"
@@ -12566,7 +12522,6 @@
 12564,1200000,2 bedroom flat for sale,"Chesterton Road, North Kensington, London, W10",W10,2.0,51.5197897,-0.2130538,"Chesterton Rd, London W10, UK"
 12565,1200000,4 bedroom terraced house for sale,"Tilehurst Road, Wandsworth, London, SW18",SW18,4.0,51.443055,-0.1771876,"Tilehurst Rd, London SW18, UK"
 12566,1200000,5 bedroom flat for sale,"Fulham Road, SW6",SW6,5.0,51.4800947,-0.1943373,"Fulham Rd., London SW6, UK"
-12567,1200000,4 bedroom terraced house for sale,"Victoria Road, Alexandra Park, N22",N22,4.0,empty,empty,empty
 12568,1200000,2 bedroom flat for sale,"Campden Hill Gardens, W8",W8,2.0,51.507425,-0.1997052,"Campden Hill Gardens, London W8, UK"
 12569,1200000,1 bedroom apartment for sale,"One Blackfriars, Blackfriars Road, SE1",SE1,1.0,51.5079645,-0.1047892,"1-16 Blackfriars Rd, London SE1 9GD, UK"
 12570,1200000,3 bedroom flat for sale,"Queensway, London, W2",W2,3.0,51.5137906,-0.1877513,"Queensway, London W2, UK"
@@ -12748,7 +12703,6 @@
 12746,1155000,2 bedroom flat for sale,"Brechin Place, South Kensington, London, SW7",SW7,2.0,51.4915133,-0.1807136,"Brechin Pl, South Kensington, London SW7, UK"
 12747,1155000,2 bedroom apartment for sale,"One Park Drive, Canary Wharf, E14",E14,2.0,51.5022775,-0.0151162,"One Park Drive, London E14 9GG, UK"
 12748,1155000,2 bedroom house for sale,"Stoneleigh Place, Notting Hill, London, W11",W11,2.0,51.5110842,-0.2158959,"Stoneleigh Pl, London W11, UK"
-12749,price,type,address,postcode,number_bedrooms,empty,empty,empty
 12750,1325000.0,2 bedroom flat for sale,Lower Sloane Street Chelsea SW1W,SW1W,2.0,51.4907407,-0.1571084,"Lower Sloane St, London SW1W, UK"
 12751,1500000.0,5 bedroom semi-detached house for sale,"Argyle Road, Ealing, London, W13 8AA",W13,5.0,51.5154716,-0.3210882,"Argyle Rd, London W13 8AA, UK"
 12752,1500000.0,3 bedroom end of terrace house for sale,"Napier Terrace, London, N1",N1,3.0,51.5399998,-0.1043283,"Napier Terrace, London N1, UK"
@@ -13107,7 +13061,6 @@
 13105,1460000.0,3 bedroom penthouse for sale,"Landmark Pinnacle, Canary Wharf, E14",E14,3.0,51.5022468,-0.0251799,"40 Landmark Sq, London E14 9AB, UK"
 13106,1460000.0,2 bedroom flat for sale,Wolfe House 389 Kensington High Street W14,W14,2.0,51.4959733,-0.2069927,"389 Kensington High St, London W14 8QA, UK"
 13107,1460000.0,2 bedroom apartment for sale,"Altissima House, 340 Queenstown Road, London, SW11",SW11,2.0,51.4783819,-0.1482876,"340 Queenstown Rd, Nine Elms, London SW11 8NE, UK"
-13108,1460000.0,1 bedroom apartment for sale,Garden House W2,W2,1.0,empty,empty,empty
 13109,1450000.0,2 bedroom apartment for sale,"South Bank Tower, 55 Upper Ground, Bankside, SE1",SE1,2.0,51.5076139,-0.1073667,"Southbank Tower, 55 Upper Ground, London SE1 9EY, UK"
 13110,1450000.0,3 bedroom apartment for sale,"Hampton Tower, 75 Marsh Wall, London, E14",E14,3.0,51.5008063,-0.0171423,"75 Marsh Wall, London E14 9WS, UK"
 13111,1450000.0,2 bedroom apartment for sale,"Cardamom Building, 31 Shad Thames, London, SE1",SE1,2.0,51.5034925,-0.0740402,"31H Shad Thames, London SE1 2YR, UK"
@@ -13157,7 +13110,6 @@
 13155,1450000.0,2 bedroom apartment for sale,"Counter House, 5 Gauging Square, London, E1W",E1W,2.0,51.50815799999999,-0.0663623,"150 Vaughan Way, London E1W 2AH, UK"
 13156,1450000.0,2 bedroom apartment for sale,"Harmont House, 20 Harley Street, Marylebone, London, W1G",W1G,2.0,51.5181483,-0.1460286,"20 Harley St, London W1G 9PH, UK"
 13157,1325000.0,5 bedroom semi-detached house for sale,"Daylesford Avenue, London SW15",SW15,5.0,51.4636415,-0.2413371,"Daylesford Ave, London SW15, UK"
-13158,1450000.0,4 bedroom semi-detached house for sale,"Abbey Road, Bush Hill Park, EN1",EN1,4.0,empty,empty,empty
 13159,1450000.0,3 bedroom terraced house for sale,"Beauval Road, London, SE22",SE22,3.0,51.4519432,-0.0782763,"Beauval Rd, London SE22, UK"
 13160,1450000.0,4 bedroom maisonette for sale,"Allitsen Road, St John's Wood, London, NW8",NW8,4.0,51.534598,-0.1676323,"Allitsen Rd, London NW8, UK"
 13161,1450000.0,3 bedroom maisonette for sale,"Northchurch Road II, London N1",N1,3.0,51.542137,-0.0866419,"Northchurch Rd, London N1, UK"
@@ -13522,7 +13474,6 @@
 13520,1380000.0,3 bedroom flat for sale,"Moscow Road, Queensway, London, W2",W2,3.0,51.51277229999999,-0.1875985,"Queensway & Moscow Rd, London W2 4AJ, UK"
 13521,1380000.0,1 bedroom apartment for sale,"Nassau Street, Fitzroy Place, W1W",W1W,1.0,51.5188027,-0.1388437,"Nassau St, London W1W, UK"
 13522,1380000.0,2 bedroom apartment for sale,"Chelsea Creek, 9 Park Street, Fulham, London, SW6",SW6,2.0,51.4754093,-0.1851629,"Chelsea Creek, 9 Park St, London SW6 2FS, UK"
-13523,price,type,address,postcode,number_bedrooms,empty,empty,empty
 13524,1700000.0,5 bedroom terraced house for sale,"St. James's Drive, London, SW17",SW17,5.0,51.4430684,-0.164478,"St James's Dr, London SW17, UK"
 13525,1750000.0,2 bedroom apartment for sale,"Foster House, London, Battersea Power Station, SW11",SW11,2.0,51.48202029999999,-0.1444907,"Circus Rd W, Nine Elms, London SW8 5BN, UK"
 13526,1750000.0,2 bedroom apartment for sale,"Rowland Hill Street, London, NW3",NW3,2.0,51.5524741,-0.1657985,"Rowland Hill St, London NW3, UK"
@@ -14304,7 +14255,6 @@
 14302,1585000.0,1 bedroom apartment for sale,"Marylebone Lane, London, W1U",W1U,1.0,51.5162459,-0.1500026,"Marylebone Ln, London W1U, UK"
 14303,1585000.0,1 bedroom apartment for sale,"Great Portland Street, London, W1W",W1W,1.0,51.5200511,-0.142679,"Great Portland St, London W1W, UK"
 14304,1585000.0,1 bedroom flat for sale,"W1 Place, W1U 2PX",W1,1.0,51.51805840000001,-0.1512799,"Marketing Suite, 79 Marylebone Ln, London W1U 2PX, UK"
-14305,price,type,address,postcode,number_bedrooms,empty,empty,empty
 14306,1900000.0,4 bedroom terraced house for sale,"Glasslyn Road, N8",N8,4.0,51.5819796,-0.1285034,"Glasslyn Rd, London N8, UK"
 14307,2000000.0,3 bedroom penthouse for sale,"Finchley Road, South Hampstead, London, NW3",NW3,3.0,51.5457342,-0.1782293,"Finchley Rd, South Hampstead, London, UK"
 14308,2000000.0,2 bedroom apartment for sale,"Bagshaw Building, Wardian, London, E14 ",E14,2.0,51.5014844,-0.022291,"Wards Place, London E14 9TP, UK"
@@ -15114,7 +15064,6 @@
 15112,1750000.0,2 bedroom apartment for sale,"Maidstone Buildings, SE1 ",SE1,2.0,51.503945,-0.0920377,"Maidstone Buildings Mews, London SE1, UK"
 15113,1750000.0,3 bedroom apartment for sale,"Harrowby Street, London, W1H",W1H,3.0,51.5177273,-0.1632561,"Harrowby St, London W1H, UK"
 15114,1750000.0,3 bedroom flat for sale,"South Quay Plaza, Canary Wharf, E14",E14,3.0,51.50060120000001,-0.0176318,"South Quay Plaza, London E14, UK"
-15115,price,type,address,postcode,number_bedrooms,empty,empty,empty
 15116,2500000.0,3 bedroom maisonette for sale,"Emperors Gate, South Kensington, London, SW7",SW7,3.0,51.4958117,-0.1860931,"Emperor's Gate, London SW7, UK"
 15117,2500000.0,3 bedroom terraced house for sale,"Vintners Row, Lamont Road Passage, Chelsea, London, SW10",SW10,3.0,51.4837536,-0.177511,"Lamont Rd Passage, London SW10, UK"
 15118,2500000.0,2 bedroom flat for sale,"Kingsway, Covent Garden, London, WC2B",WC2B,2.0,51.5153203,-0.1189692,"Kingsway, London WC2B, UK"
@@ -15227,7 +15176,6 @@
 15225,2500000.0,3 bedroom mews house for sale,"Princes Mews, W2, Notting Hill, London, W2",W2,3.0,51.5125253,-0.1927364,"Prince's Mews, London W2, UK"
 15226,2500000.0,4 bedroom terraced house for sale,"Gorst Road, SW11",SW11,4.0,51.4525703,-0.1656259,"Gorst Rd, London SW11, UK"
 15227,2500000.0,4 bedroom terraced house for sale,"Vincent Terrace, Angel, London, N1",N1,4.0,51.5328208,-0.1018302,"Vincent Terrace, London N1, UK"
-15228,2200000.0,2 bedroom apartment for sale,Garden House W2,W2,2.0,empty,empty,empty
 15229,2500000.0,5 bedroom semi-detached house for sale,"Harwood Terrace, London, SW6",SW6,5.0,51.4766119,-0.1902904,"Harwood Terrace, London SW6, UK"
 15230,2500000.0,5 bedroom flat for sale,"Central Avenue, London, SW6",SW6,5.0,51.4675876,-0.1858832,"Central Ave, London SW6, UK"
 15231,2500000.0,3 bedroom penthouse for sale,"Lexham Gardens, Kensington W8",W8,3.0,51.4958403,-0.1931042,"Lexham Gardens, London W8, UK"
@@ -15733,7 +15681,6 @@
 15731,2200000.0,2 bedroom apartment for sale,"Sloane Gardens, Chelsea, London, SW1W",SW1W,2.0,51.4920117,-0.1566236,"Sloane Gardens, London SW1W, UK"
 15732,2200000.0,6 bedroom semi-detached house for sale,"Aldersbrook Road, Wanstead, London, E12",E12,6.0,51.558695,0.0422277,"Aldersbrook Rd, London E12, UK"
 15733,2200000.0,2 bedroom flat for sale,"Queens Gate Gardens, South Kensington, London, SW7",SW7,2.0,51.4960153,-0.1819563,"Queen's Gate Gardens, South Kensington, London SW7, UK"
-15734,2200000.0,2 bedroom apartment for sale,Garden House W2,W2,2.0,empty,empty,empty
 15735,2200000.0,2 bedroom flat for sale,"LOWNDES SQUARE, London, SW1X",SW1X,2.0,51.5003097,-0.1587755,"Lowndes Square, London SW1X, UK"
 15736,2200000.0,5 bedroom apartment for sale,"Emperors Gate, London, SW7",SW7,5.0,51.4958117,-0.1860931,"Emperor's Gate, London SW7, UK"
 15737,2200000.0,3 bedroom flat for sale,"Tudor House, One Tower Bridge, Duchess Walk, London, SE1",SE1,3.0,51.5036542,-0.07730759999999999,"Duchess Walk, London SE1 2AA, UK"
@@ -15934,7 +15881,6 @@
 15932,2000000.0,19 bedroom detached house for sale,"Church Road, London, SE19",SE19,19.0,51.4152091,-0.082784,"Church Rd, London SE19, UK"
 15933,2000000.0,7 bedroom semi-detached house for sale,"Fernhead Road, Maida Vale, W9",W9,7.0,51.5285936,-0.2013951,"Fernhead Rd, London W9, UK"
 15934,2000000.0,3 bedroom apartment for sale,"Nevern Square, London, SW5",SW5,3.0,51.4918301,-0.1971893,"Nevern Square, London SW5, UK"
-15935,price,type,address,postcode,number_bedrooms,empty,empty,empty
 15936,2500000.0,3 bedroom maisonette for sale,"Emperors Gate, South Kensington, London, SW7",SW7,3.0,51.4958117,-0.1860931,"Emperor's Gate, London SW7, UK"
 15937,3000000.0,3 bedroom apartment for sale,"Principal Place, Worship Street, London, EC2A",EC2A,3.0,51.52189250000001,-0.0791915,"1 Principal Place, London EC2A 2BA, UK"
 15938,3000000.0,3 bedroom penthouse for sale,"Sir John Lyon House, 8 High Timber Street, London, EC4V",EC4V,3.0,51.51099620000001,-0.0963962,"Sir John Lyon House, 8 High Timber St, London EC4V 3PA, UK"
@@ -16126,7 +16072,6 @@
 16124,2900000.0,2 bedroom flat for sale,"Balfour Mews, Mayfair, London, W1K",W1K,2.0,51.5086932,-0.1522409,"Balfour Mews, London W1K, UK"
 16125,2900000.0,4 bedroom terraced house for sale,"Pembridge Villas, London W11",W11,4.0,51.5132158,-0.1972334,"Pembridge Villas, London W11, UK"
 16126,2900000.0,2 bedroom apartment for sale,"Millbank Residences, 9 Millbank, Westminster, SW1P",SW1P,2.0,51.4949453,-0.1264491,"2 Horseferry Rd, London SW1P 2AW, UK"
-16127,2900000.0,5 bedroom house for sale,"Dundonald Road, Queen's Park, NW10",NW10,5.0,empty,empty,empty
 16128,3000000.0,3 bedroom maisonette for sale,"Pembridge Crescent, Notting Hill, London, W11",W11,3.0,51.5120342,-0.1991053,"Pembridge Cres, London W11, UK"
 16129,2900000.0,3 bedroom apartment for sale,"The Corniche, Tower Two, Albert Embankment, SE1",SE1,3.0,51.4909913,-0.12216,"21 Albert Embankment, London SE1 7TJ, UK"
 16130,2900000.0,2 bedroom maisonette for sale,"Oakley Street, Chelsea, SW3",SW3,2.0,51.485238,-0.1685612,"Oakley St, London SW3, UK"
@@ -16510,7 +16455,6 @@
 16508,2550000.0,3 bedroom apartment for sale,"Marconi House, 335 The Strand, London, WC2R",WC2R,3.0,51.5119409,-0.1180339,"335 Strand, London WC2R 1HL, UK"
 16509,2550000.0,2 bedroom apartment for sale,"Kings Gate Walk, London, SW1E",SW1E,2.0,51.4973626,-0.1380283,"Angela Hooper Pl, London SW1, UK"
 16510,2550000.0,2 bedroom apartment for sale,"Parr's Way, London, W6",W6,2.0,51.4872713,-0.2257826,"Parr's Wy., London W6, UK"
-16511,2550000.0,3 bedroom apartment for sale,"Marconi House, Strand, WC2",WC2,3.0,empty,empty,empty
 16512,2545000.0,3 bedroom apartment for sale,"101 on Cleveland, Cleveland Street, W1T",W1T,3.0,51.5214844,-0.140077,"87 - 125 Cleveland St, London W1T 6PJ, UK"
 16513,2545000.0,3 bedroom apartment for sale,"Cleveland Street, Fitzrovia, London, W1T",W1T,3.0,51.521257,-0.1396316,"Cleveland St, London W1T, UK"
 16514,2535000.0,1 bedroom apartment for sale,"Marylebone Square, Moxon Street, Marylebone, W1",W1,1.0,51.518052,-0.1513014,"79 Marylebone Ln, London W1U 2PX, UK"
@@ -16673,7 +16617,6 @@
 16671,2500000.0,3 bedroom flat for sale,"Duchess Walk, One Tower Bridge, London, SE1",SE1,3.0,51.5038645,-0.07830279999999999,"Sandringham House, Earls Way, London SE1 2QX, UK"
 16672,2500000.0,6 bedroom house for sale,"Stamford Brook Road, London, W6",W6,6.0,51.4982006,-0.2459824,"Stamford Brook Rd, London W6, UK"
 16673,2989000.0,3 bedroom apartment for sale,"Principal Place,Worship Street,London,EC2A",EC2A,3.0,51.52189250000001,-0.0791915,"1 Principal Place, London EC2A 2BA, UK"
-16674,price,type,address,postcode,number_bedrooms,empty,empty,empty
 16675,3500000.0,4 bedroom terraced house for sale,"Montpelier Place, Knightsbridge SW7",SW7,4.0,51.4994655,-0.1668156,"Montpelier Pl, London SW7, UK"
 16676,5000000.0,3 bedroom apartment for sale,"Eaton Square, Belgravia, London, SW1W",SW1W,3.0,51.4945225,-0.1526437,"Eaton Square, Eaton Square, London SW1W 9BE, UK"
 16677,5000000.0,5 bedroom house for sale,"Abingdon Road, Kensington, W8",W8,5.0,51.4978653,-0.1961266,"Abingdon Rd, London W8, UK"
@@ -16972,7 +16915,6 @@
 16970,4250000.0,5 bedroom flat for sale,"Aldersgate Street, Islington, London, EC1A",EC1A,5.0,51.5191902,-0.0971308,"Aldersgate St, London EC1A, UK"
 16971,4250000.0,5 bedroom house for sale,"Lamont Road, Chelsea, London, SW10",SW10,5.0,51.4830689,-0.1790495,"Lamont Rd, London SW10, UK"
 16972,4250000.0,6 bedroom detached house for sale,"Castelnau, Barnes, London, SW13",SW13,6.0,51.4811894,-0.2366967,"Castelnau, London SW13, UK"
-16973,4250000.0,5 bedroom apartment for sale,"Trinity House, W14",W14,5.0,empty,empty,empty
 16974,4250000.0,8 bedroom penthouse for sale,EC2A,EC2A,8.0,51.52417939999999,-0.0807383,"London EC2A, UK"
 16975,4250000.0,4 bedroom mews house for sale,"Clay Street, Marylebone, London, W1U",W1U,4.0,51.5151253,-0.1504998,"11 St Christopher's Pl, London W1U 1NG, UK"
 16976,4250000.0,3 bedroom apartment for sale,"New Cavendish Street, Fitzrovia, London, W1W",W1W,3.0,51.520228,-0.1420763,"New Cavendish St, London W1W, UK"
@@ -17408,7 +17350,6 @@
 17406,3500000.0,2 bedroom apartment for sale,"Pont Street, SW1",SW1,2.0,51.4971387,-0.1595003,"Pont St, London SW1X, UK"
 17407,3500000.0,3 bedroom apartment for sale,"The Pembridge, 1A Pembridge Gardens, Notting Hill Gate, London, W2",W2,3.0,51.509545,-0.1962464,"Radford House, 1 Pembridge Gardens, London W2 4EE, UK"
 17408,3500000.0,2 bedroom property for sale,"Belmont Street, London, NW1",NW1,2.0,51.5440696,-0.151008,"Belmont St, Chalk Farm, London NW1, UK"
-17409,3500000.0,3 bedroom house for sale,"Townhouse 3, Oxbridge Terrace W6",W6,3.0,empty,empty,empty
 17410,3500000.0,5 bedroom house for sale,"Aynhoe Road, London W14",W14,5.0,51.4963818,-0.2169926,"Aynhoe Rd, London W14, UK"
 17411,3500000.0,4 bedroom terraced house for sale,"Peel Street, London, W8",W8,4.0,51.5068909,-0.1966708,"Peel St, London W8, UK"
 17412,3500000.0,3 bedroom apartment for sale,"Roman House, Barbican, EC2Y",EC2Y,3.0,51.5182532,-0.0929714,"Wood St, Barbican, London EC2Y 5AG, UK"
@@ -17540,7 +17481,6 @@
 17538,3300000.0,2 bedroom apartment for sale,"Park Mansions, Knightsbridge, London, SW1X",SW1X,2.0,51.50139979999999,-0.1620749,"Park Mansions, Knightsbridge, London SW1X 7QS, UK"
 17539,3300000.0,4 bedroom apartment for sale,"The Nova Building, Buckingham Palace Road SW1W",SW1W,4.0,51.49749749999999,-0.1430083,"79a Buckingham Palace Rd, London SW1W 0AJ, UK"
 17540,3300000.0,2 bedroom apartment for sale,"Egerton Gardens, Knightbridge, SW3",SW3,2.0,51.495541,-0.1680931,"Egerton Gardens, London SW3, UK"
-17541,price,type,address,postcode,number_bedrooms,empty,empty,empty
 17542,5250000.0,4 bedroom flat for sale,"Green Street, Mayfair, London, W1K",W1K,4.0,51.5129918,-0.153393,"Green St, London W1K, UK"
 17543,55000000.0,4 bedroom terraced house for sale,"Grafton Street, Mayfair, W1J",W1J,4.0,51.5099665,-0.1434662,"Grafton St, London W1J, UK"
 17544,54000000.0,12 bedroom house for sale,"Off market Mayfair house, W1K",W1K,12.0,51.51096829999999,-0.15124,"London W1K, UK"
