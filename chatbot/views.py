@@ -12,6 +12,7 @@ from chatbot.data_clean import parse_address
 import numpy as np
 import joblib
 
+# Load models
 ElaNet_Regression_model = joblib.load('chatbot/model/ElaNet_Regression.pkl')
 MLP_clf_model = joblib.load('chatbot/model/MLP.pkl')
 type_encoder = joblib.load('chatbot/model/type_encoder.pkl')
