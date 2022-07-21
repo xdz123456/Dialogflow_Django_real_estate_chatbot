@@ -8,6 +8,14 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 from chatbot.models import Property
 from django.utils import timezone
+from chatbot.data_clean import parse_address
+import numpy as np
+import joblib
+
+ElaNet_Regression_model = joblib.load('chatbot/model/ElaNet_Regression.pkl')
+MLP_clf_model = joblib.load('chatbot/model/MLP.pkl')
+type_encoder = joblib.load('chatbot/model/type_encoder.pkl')
+postcode_encoder = joblib.load('chatbot/model/postcode_encoder.pkl')
 
 # Set up the global value
 # current_property is the Property class which is waiting for storing in the database
@@ -78,7 +86,6 @@ def user_logout(request):
 
 
 def transform_to_text(my_queries):
-
     total_text_list = []
     if len(my_queries) != 0:
         for each in my_queries:
@@ -116,6 +123,50 @@ def deal_with_intent(intent_name, para):
         current_property[4] = para
     if intent_name == "Sell_Price":
         current_property[5] = para
+
+        text_list = []
+        if current_property[0] is not None:
+            text_list += ["City: " + current_property[0]]
+        if current_property[1] is not None:
+            text_list += ["Postcode: " + current_property[1]]
+        if current_property[2] is not None:
+            text_list += ["Property type: " + current_property[2]]
+        if current_property[3] is not None:
+            text_list += ["Number of bedroom: " + str(current_property[3])]
+        if current_property[4] is not None:
+            text_list += ["Min Price: " + str(current_property[4])]
+        if current_property[5] is not None:
+            text_list += ["Max Price: " + str(current_property[5])]
+        if len(text_list) > 0:
+            return [text_list]
+    if intent_name == "ML_need":
+
+        text_list = []
+        lat = None
+        lng = None
+        formatted_address = None
+        type_labeled = None
+        postcode_labeled = None
+
+        try:
+            lat, lng, formatted_address = parse_address(current_property[1])
+            type_labeled = type_encoder.transform([str(current_property[3])])[0]
+            postcode_labeled = postcode_encoder.transform([str(current_property[2])])[0]
+        except:
+            print("No postcode like this")
+
+        if lat == "empty" or lng == "empty" or type_labeled is None or postcode_labeled is None or current_property[
+            4] is None:
+            text_list += ["Sorry, our model do not provide prediction in address"]
+            return [text_list]
+        else:
+            X = np.array([int(current_property[4]), lat, lng, type_labeled, postcode_labeled])
+            price = ElaNet_Regression_model.predict(X.reshape(1, -1))
+            prediction_label = MLP_clf_model.predict(X.reshape(1, -1))
+            text_list += ["Here is your prediction price range by Multilayer perceptron: " + str(
+                prediction_label[0])]
+            return [text_list]
+
     if intent_name == "Sell_Confirm_True":
         my_property = Property()
         my_property.property_city = current_property[0]
@@ -180,14 +231,11 @@ def deal_with_intent(intent_name, para):
         return text_list
 
     if intent_name == "PreferFalse":
-
         p = Property.objects.order_by('?')[:4]
         text_list = transform_to_text(p)
         print(text_list)
         return text_list
     return text_list
-
-
 
 
 @login_required

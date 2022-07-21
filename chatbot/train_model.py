@@ -12,7 +12,7 @@ import joblib
 
 import pandas as pd
 
-report_data = open("model/model_report", "w")
+report_data = open("model/model_report.txt", "w")
 
 
 # Dummy classifier(for random guess)
@@ -43,7 +43,7 @@ def svc_classifier(X_train, X_test, y_train, y_test):
 
 # Multi-layer Perceptron(NN)
 def neural_network(X_train, X_test, y_train, y_test):
-    mlp_clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(20,), max_iter=10000, random_state=1)
+    mlp_clf = MLPClassifier(solver='lbfgs', alpha=2e-5, hidden_layer_sizes=(30,), max_iter=15000, random_state=1)
     mlp_clf.fit(X_train, y_train)
     y_prediction = mlp_clf.predict(X_test)
     print("MLP: \n" + classification_report(y_test, y_prediction, digits=3, zero_division=0), file= report_data)
@@ -99,6 +99,10 @@ postcode_encoder.fit(postcode_meta)
 
 type_labeled = type_encoder.transform(total_data["type"])
 postcode_labeled = postcode_encoder.transform(total_data['postcode'])
+
+joblib.dump(type_encoder, 'model/type_encoder.pkl')
+joblib.dump(postcode_encoder, 'model/postcode_encoder.pkl')
+
 
 X["type_labeled"] = type_labeled
 X["postcode_labeled"] = postcode_labeled

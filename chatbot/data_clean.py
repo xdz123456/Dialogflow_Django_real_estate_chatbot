@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-MAP_API_KEY = ""
+MAP_API_KEY = "AIzaSyA-wZq_7NGNrD10INV_PWHC18xgSY9vNGw"
 BASE_URL = "https://maps.googleapis.com/maps/api/geocode/json?"
 
 
@@ -45,7 +45,9 @@ def data_clean():
     real_estate_london_df = pd.concat([real_estate_london_df, pd.DataFrame(columns=["lng"])], sort=False)
     real_estate_london_df = pd.concat([real_estate_london_df, pd.DataFrame(columns=["formatted_address"])], sort=False)
     real_estate_london_df.reset_index(inplace=True)
-    for i in range(0, len(real_estate_london_df)):
+    # For security avoid abuse the api
+    # for i in range(0, len(real_estate_london_df)):
+    for i in range(0, 5):
         lat, lng, formatted_address = parse_address(real_estate_london_df.iloc[i]["address"])
         real_estate_london_df.loc[i, ['lat']] = lat
         real_estate_london_df.loc[i, ['lng']] = lng
