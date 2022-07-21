@@ -1,7 +1,5 @@
 import pandas as pd
 import requests
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 MAP_API_KEY = "AIzaSyA-wZq_7NGNrD10INV_PWHC18xgSY9vNGw"
