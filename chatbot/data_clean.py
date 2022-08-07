@@ -1,7 +1,6 @@
 import pandas as pd
 import requests
 
-
 MAP_API_KEY = "AIzaSyA-wZq_7NGNrD10INV_PWHC18xgSY9vNGw"
 BASE_URL = "https://maps.googleapis.com/maps/api/geocode/json?"
 
@@ -35,8 +34,9 @@ def data_clean():
     real_estate_london_df = real_estate_london_df.dropna()
 
     # Deal with the \n and \r in address
-    for i in range(0, len(real_estate_london_df)):
-        real_estate_london_df.iloc[i]["address"] = real_estate_london_df.iloc[i]["address"].replace('\r', '').replace('\n', '')
+    for i in range(len(real_estate_london_df)):
+        real_estate_london_df.iloc[i]["address"] = real_estate_london_df.iloc[i]["address"].replace('\r', '').replace(
+            '\n', '')
 
     # Add new empty columns lat, lng and formatted
     real_estate_london_df = pd.concat([real_estate_london_df, pd.DataFrame(columns=["lat"])], sort=False)
@@ -45,7 +45,7 @@ def data_clean():
     real_estate_london_df.reset_index(inplace=True)
     # For security avoid abuse the api
     # for i in range(0, len(real_estate_london_df)):
-    for i in range(0, 5):
+    for i in range(5):
         lat, lng, formatted_address = parse_address(real_estate_london_df.iloc[i]["address"])
         real_estate_london_df.loc[i, ['lat']] = lat
         real_estate_london_df.loc[i, ['lng']] = lng
@@ -66,7 +66,7 @@ def deal_type():
     real_estate_london_df = pd.read_csv("data/rightmove_london_cleaned.csv")
 
     real_estate_london_df.reset_index(inplace=True)
-    for i in range(0, len(real_estate_london_df)):
+    for i in range(len(real_estate_london_df)):
         current_string = real_estate_london_df.iloc[i]["type"]
         if "Studio flat" in current_string:
             real_estate_london_df.loc[i, ['type']] = "Studio flat"
@@ -138,7 +138,7 @@ def split_data():
     cleaned_df = pd.read_csv("data/rightmove_london_cleaned_final.csv")
     cleaned_df.reset_index(inplace=True)
     cleaned_df = pd.concat([cleaned_df, pd.DataFrame(columns=["label"])], sort=False)
-    for i in range(0, len(cleaned_df)):
+    for i in range(len(cleaned_df)):
         if float(cleaned_df.iloc[i]["price"]) < 200000:
             cleaned_df.loc[i, ['label']] = "Less than 200000 GBP"
             continue
@@ -208,9 +208,8 @@ def split_data():
         if 7500000 <= float(cleaned_df.iloc[i]["price"]) < 10000000:
             cleaned_df.loc[i, ['label']] = "7500000 to 10000000 GBP"
             continue
-        if 10000000 <= float(cleaned_df.iloc[i]["price"]):
-            cleaned_df.loc[i, ['label']] = "Higher than 10000000 GBP"
-            continue
+        cleaned_df.loc[i, ['label']] = "Higher than 10000000 GBP"
+        continue
     cleaned_df = cleaned_df.drop(columns=["index"])
     cleaned_df = cleaned_df.drop([cleaned_df.columns[0]], axis=1)
     cleaned_df.to_csv('data/rightmove_london_labeled.csv')
@@ -220,4 +219,3 @@ def split_data():
 # deal_empty()
 # deal_type()
 # split_data()
-

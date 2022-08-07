@@ -24,12 +24,15 @@ postcode_encoder = joblib.load('chatbot/model/postcode_encoder.pkl')
 current_property = [None, None, None, None, None, None]
 current_query = [None, None, None, None, None, None]
 current_user = None
+current_session_text = []
+current_queries_model = None
 
 
 # The index page's view function which provide a login function
 def index(request):
     # Set the current_user as the global value
     global current_user
+    global current_session_text
     # Do the auth using form from frontend
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -40,6 +43,7 @@ def index(request):
             if user.is_active:
                 login(request, user)
                 current_user = user
+                current_session_text = []
                 # redirect to the chatform page
                 return redirect(reverse('chatbot:chatform'))
             else:
@@ -80,13 +84,17 @@ def register(request):
 
 
 def user_logout(request):
+    global current_session_text
     global current_user
     current_user = None
     logout(request)
+    current_session_text = []
     return redirect(reverse('chatbot:index'))
 
 
 def transform_to_text(my_queries):
+    global current_queries_model
+    current_queries_model = my_queries
     total_text_list = []
     if len(my_queries) != 0:
         for each in my_queries:
@@ -98,6 +106,9 @@ def transform_to_text(my_queries):
             current_text_list += ["Property Type: " + each.property_type]
             current_text_list += ["Number of Bedroom: " + str(each.property_num_bedroom)]
             current_text_list += ["Post Time: " + str(each.property_date.date())]
+            if len(each.property_belong.all()) != 0:
+                current_text_list += ["Seller's username: " + str(each.property_belong.all()[0].username)]
+                current_text_list += ["Seller's email: " + str(each.property_belong.all()[0].email)]
             total_text_list += [current_text_list]
     else:
         total_text_list += [["Sorry, no such property which you prefer."]]
@@ -232,19 +243,51 @@ def deal_with_intent(intent_name, para):
         return text_list
 
     if intent_name == "PreferFalse":
-        p = Property.objects.order_by('?')[:4]
+        p = Property.objects.order_by('?')[:6]
         text_list = transform_to_text(p)
-        print(text_list)
         return text_list
+
+    if intent_name == "Who Interest":
+        text_list = []
+        p = Property.objects.filter()
+        p = p.filter(property_belong__in=[current_user])
+        for i in range(len(p)):
+            if len(p[i].property_interested.all()) != 0:
+                current = [str(p[i])]
+                current_interest = p[i].property_interested.all()
+                for interest_user in current_interest:
+                    current += ["Interesting Buyer's username: " + str(interest_user)]
+                    current += ["Interesting Buyer's email: " + str(interest_user.email)]
+                text_list += [current]
+        return text_list
+
+    if intent_name == "My Interest":
+        text_list = []
+        p = Property.objects.filter()
+        p = p.filter(property_interested__in=[current_user])
+
+        for i in range(len(p)):
+            current = [str(p[i])]
+            current_interest = p[i].property_belong.all()[0]
+            current += ["Your interesting property's Sell's username: " + str(current_interest)]
+            current += ["Your interesting property's Sell's email: " + str(current_interest.email)]
+
+            text_list += [current]
+        return text_list
+
     return text_list
 
 
 @login_required
 def chat(request):
+    global current_session_text
     # Init intent name and parameter
     output_text = " "
     intent_name = None
     my_parameter = None
+    my_response_words = None
+    property_list = None
+    like_message = None
 
     # Init the chat input form
     form = InputTextForm()
@@ -253,15 +296,30 @@ def chat(request):
 
     if form.is_valid():
         chat_data = form.cleaned_data['input_text']
+        current_session_text += [chat_data]
         form.save(commit=True)
         intent_name, my_parameter, output_text = chat_with_me(chat_data)
         form = InputTextForm()
+        current_session_text += [output_text]
     else:
         print(form.errors)
 
-    my_response_words = deal_with_intent(intent_name, my_parameter)
+    if request.method == 'GET':
+        if request.GET.get("liked_num") is not None:
+            liked_num = int(request.GET.get("liked_num"))
+            liked_property = current_queries_model[liked_num]
+            liked_property.property_interested.add(current_user)
+            liked_property.save()
+            like_message = "Like successfully, the seller will receiver your message"
+
+    if intent_name in ["PreferFalse", "Buy_Query_True"]:
+        property_list = deal_with_intent(intent_name, my_parameter)
+    else:
+        my_response_words = deal_with_intent(intent_name, my_parameter)
+
     print(my_response_words)
     print(current_property)
     print(current_user)
-    context_dict = {'output_text': output_text, 'my_response_words': my_response_words, 'form': form}
+    context_dict = {'current_session_text': current_session_text, 'liked_message': like_message,
+                    'property_list': property_list, 'my_response_words': my_response_words, 'form': form}
     return render(request, 'chatbot/chatform.html', context=context_dict)

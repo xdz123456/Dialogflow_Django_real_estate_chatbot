@@ -29,9 +29,7 @@ def create_agent(display_name):
         time_zone="Europe/London",
     )
 
-    response = agent_client.create_agent(request={"agent": agent, "parent": parent})
-
-    return response
+    return agent_client.create_agent(request={"agent": agent, "parent": parent})
 
 
 # For dialogflow cx, we can not get the agent directly
@@ -50,17 +48,13 @@ def get_agent_name(index_of_agent):
         agent_str_list += [res.name]
 
     # Deal with the string
-    for n in range(0, len(agent_str_list)):
+    for n in range(len(agent_str_list)):
         count = -1
         name = agent_str_list[n]
-        for i in range(0, len(name)):
+        for i in range(len(name)):
             if name[i] == '/':
                 count = i
-        if count == -1:
-            agent_str_list[n] = name
-        else:
-            agent_str_list[n] = name[count + 1:]
-
+        agent_str_list[n] = name if count == -1 else name[count + 1:]
     return agent_str_list[index_of_agent]
 
 
@@ -97,17 +91,17 @@ def chat_with_me(input_text):
     # Obtain the parameter from the input text
     try:
         intent_name = response_json["queryResult"]["intent"]["displayName"]
-        if intent_name == "Sell_City" or intent_name == "Buy_City":
+        if intent_name in ["Sell_City", "Buy_City"]:
             my_parameter = response_json["queryResult"]["parameters"]["my_city"]
         if intent_name == "Sell_Address":
             my_parameter = response_json["queryResult"]["parameters"]["my_address"]
-        if intent_name == "Sell_Postcode" or intent_name == "Buy_Postcode":
+        if intent_name in ["Sell_Postcode", "Buy_Postcode"]:
             my_parameter = response_json["queryResult"]["parameters"]["my_postcode"]
-        if intent_name == "Sell_Type" or intent_name == "Buy_Type":
+        if intent_name in ["Sell_Type", "Buy_Type"]:
             my_parameter = response_json["queryResult"]["parameters"]["my_type"]
-        if intent_name == "Sell_BedroomNum" or intent_name == "Buy_BedroomNum":
+        if intent_name in ["Sell_BedroomNum", "Buy_BedroomNum"]:
             my_parameter = response_json["queryResult"]["parameters"]["my_bedroom_num"]
-        if intent_name == "Sell_Price" or intent_name == "Buy_Min_Price" or intent_name == "Buy_Max_Price":
+        if intent_name in ["Sell_Price", "Buy_Min_Price", "Buy_Max_Price"]:
             my_parameter = response_json["queryResult"]["parameters"]["my_price"]
     except KeyError:
         print("No Detect intent")
