@@ -140,15 +140,15 @@ def deal_with_intent(intent_name, para):
         if current_property[0] is not None:
             text_list += ["City: " + current_property[0]]
         if current_property[1] is not None:
-            text_list += ["Postcode: " + current_property[1]]
+            text_list += ["Address: " + current_property[1]]
         if current_property[2] is not None:
-            text_list += ["Property type: " + current_property[2]]
+            text_list += ["Postcode: " + current_property[2]]
         if current_property[3] is not None:
-            text_list += ["Number of bedroom: " + str(current_property[3])]
+            text_list += ["Property type: " + str(current_property[3])]
         if current_property[4] is not None:
-            text_list += ["Min Price: " + str(current_property[4])]
+            text_list += ["Number of Bedroom: " + str(current_property[4])]
         if current_property[5] is not None:
-            text_list += ["Max Price: " + str(current_property[5])]
+            text_list += ["Your expect Price: " + str(current_property[5])]
         if len(text_list) > 0:
             return [text_list]
     if intent_name == "ML_need":
