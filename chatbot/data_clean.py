@@ -1,8 +1,6 @@
 import pandas as pd
 import requests
 
-MAP_API_KEY = "AIzaSyA-wZq_7NGNrD10INV_PWHC18xgSY9vNGw"
-BASE_URL = "https://maps.googleapis.com/maps/api/geocode/json?"
 
 
 # Use Google map API to get the lat, lng and formatted by input the rough address
